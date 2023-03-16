@@ -23,7 +23,8 @@ permalink: /
 </div>
 </div>
 
-Hello, my name is Jiangshan Mu and I am a Ph.D. candidate in atmospheric environment. My research interests lie in studying the interactions between the atmosphere and the environment, mainly based on machine learning, box models, etc.
+Hello, my name is Jiangshan Mu and I am a Ph.D. candidate in atmospheric environment at Environment Research Institute, Shandong University, supervised by Prof. Xue Li-kun and Prof. Zhang Yu-qiang.  
+My research interests lie in studying the interactions between the atmosphere and the environment, including tropospheric ozone, VOCs, reactive halogen species, wildfires and subsidence, based mainly on machine learning, box models, and observations. etc.
 
 <!-- Carousel -->
 <div id="home-carousel" class="carousel slide col-sm-7 ms-me-auto" data-bs-ride="carousel">
