@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-# Welcome to the Axonlab
+# Welcome to Jiangshan's Home
 
 <div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding-top: 20px" >
 <div class="well">
@@ -23,10 +23,7 @@ permalink: /
 </div>
 </div>
 
-We investigate the neuroimaging workflow to map out the brain's connectivity networks,
-characterize the reliability, sensitivity and specificity of these methodologies (from
-acquisition to formalization of network information) and apply them in the understanding
-of the healthy and diseased developmental trajectories of the human brain.
+Hello, my name is Jiangshan Mu and I am a Ph.D. candidate in atmospheric environment. My research interests lie in studying the interactions between the atmosphere and the environment, mainly based on machine learning, box models, etc.
 
 <!-- Carousel -->
 <div id="home-carousel" class="carousel slide col-sm-7 ms-me-auto" data-bs-ride="carousel">
