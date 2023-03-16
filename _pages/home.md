@@ -1,7 +1,7 @@
 ---
-title: "The Axonlab :: Welcome"
+title: "Jiangshan Mu's Website == Welcome!"
 layout: default
-excerpt: "Welcome to the Axonlab!"
+excerpt: "Welcome to Jiangshan's Home!"
 sitemap: false
 permalink: /
 ---
