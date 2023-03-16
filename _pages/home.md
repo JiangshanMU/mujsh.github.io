@@ -74,6 +74,8 @@ During my graduate studies, I have participated in many field work experiments, 
 </div>
 
 I am fortunate and grateful that science exists in this world, as it has brought me the life I have always dreamed of. It is an endless pursuit, towering above and delving into the depths, requiring great effort and dedication over many years. The most poetic and romantic life I can imagine is one spent on a journey in search of truth.
+
+
 If you have any interests or topics related to science or any other field, please feel free to contact me. I am always eager to engage in discussions and exchange ideas with others. You can reach me at my email address, mujsh@mail.sdu.edu.cn. Whether it's a question, an idea, or just a conversation starter, I am happy to hear from you and explore together. Let's share our passion for learning and discovery and see where it takes us!
 
 
