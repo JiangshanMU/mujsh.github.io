@@ -46,19 +46,22 @@ My research interests lie in studying the interactions between the atmosphere an
 <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESZM.jpg" class="d-block w-100" alt="fMRIPrep workflow">
 </div>
 <div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mriqc-carpetplot.png" class="d-block w-100" alt="QA/QC of MRI data & MRIQC">
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jgrzyn.jpg" class="d-block w-100" alt="QA/QC of MRI data & MRIQC">
 </div>
 <div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/regseg-pixel.png" class="d-block w-100" alt="Neuroimaging methods development">
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/zynacp.png" class="d-block w-100" alt="Neuroimaging methods development">
 </div>
 <div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ambizione-design.png" class="d-block w-100" alt="Reliabilty of MRI measurements">
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTENLYH.jpg" class="d-block w-100" alt="Reliabilty of MRI measurements">
 </div>
 <div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/templateflow-mosaic.png" class="d-block w-100" alt="TemplateFlow -- neuroimaging templates and atlases">
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESJYR.jpg" class="d-block w-100" alt="TemplateFlow -- neuroimaging templates and atlases">
 </div>
 <div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mriqc-reports.png" class="d-block w-100" alt="MRIQC -- Visual reports">
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acsyc.jpeg" class="d-block w-100" alt="MRIQC -- Visual reports">
+</div>
+<div class="carousel-item">
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTENLZY.jpeg" class="d-block w-100" alt="MRIQC -- Visual reports">
 </div>
 </div>
 <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
