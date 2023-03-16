@@ -23,7 +23,8 @@ permalink: /
 </div>
 </div>
 
-Hello, my name is Jiangshan Mu and I am a Ph.D. candidate in atmospheric environment at Environment Research Institute, Shandong University, supervised by Prof. Xue Li-kun and Prof. Zhang Yu-qiang.  
+Hello, my name is Jiangshan Mu and I am a Ph.D. candidate in atmospheric environment at [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University, supervised by [Prof. Xue Li-kun](https://www.hj.sdu.edu.cn/info/1015/1532.htm) and [Prof. Zhang Yu-qiang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm).  
+
 My research interests lie in studying the interactions between the atmosphere and the environment, including tropospheric ozone, VOCs, reactive halogen species, wildfires and subsidence, based mainly on machine learning, box models, and observations. etc.
 
 <!-- Carousel -->
