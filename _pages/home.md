@@ -49,7 +49,7 @@ My research interests lie in studying the interactions between the atmosphere an
 <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jgrzyn.jpg" class="d-block w-100" alt="QA/QC of MRI data & MRIQC">
 </div>
 <div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/zynacp.png" class="d-block w-100" alt="Neuroimaging methods development">
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acpzyn.png" class="d-block w-100" alt="Neuroimaging methods development">
 </div>
 <div class="carousel-item">
 <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTENLYH.jpg" class="d-block w-100" alt="Reliabilty of MRI measurements">
