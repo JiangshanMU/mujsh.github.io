@@ -43,7 +43,7 @@ My research interests lie in studying the interactions between the atmosphere an
 <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTEN.png" class="d-block w-100" alt="fMRIPrep & tools" />
 </div>
 <div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESZM.png" class="d-block w-100" alt="fMRIPrep workflow">
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESZM.jpg" class="d-block w-100" alt="fMRIPrep workflow">
 </div>
 <div class="carousel-item">
 <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mriqc-carpetplot.png" class="d-block w-100" alt="QA/QC of MRI data & MRIQC">
