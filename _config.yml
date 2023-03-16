@@ -11,8 +11,8 @@ email: theaxonlab@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The Axonlab --
   Mapping brain networks
-baseurl: "/"
-url: "https://www.axonlab.org"
+baseurl: "https://github.com/JiangshanMU/mujsh.github.io"
+url: "https://github.com/JiangshanMU/mujsh.github.io"
 
 include:
   - .htaccess
