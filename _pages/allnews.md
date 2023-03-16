@@ -1,7 +1,7 @@
 ---
-title: "AxonLab :: News"
+title: "Jiangshan :: News"
 layout: default
-excerpt: "AxonLab -- News and announcements"
+excerpt: "Jiangshan -- News and announcements"
 sitemap: false
 permalink: /allnews.html
 ---
