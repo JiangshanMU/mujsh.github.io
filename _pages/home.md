@@ -40,7 +40,7 @@ My research interests lie in studying the interactions between the atmosphere an
 </div>
 <div class="carousel-inner">
 <div class="carousel-item active">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/fmriprep-smoothing.png" class="d-block w-100" alt="fMRIPrep & tools" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTEN.png" class="d-block w-100" alt="fMRIPrep & tools" />
 </div>
 <div class="carousel-item">
 <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/fmriprep-flowchart.png" class="d-block w-100" alt="fMRIPrep workflow">
