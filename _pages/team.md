@@ -33,7 +33,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="col-md-4">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
 </div>
-<div class="col-md-8">
+<div class="col-md-8" style="width: 400px;">
 <div class="card-body">
 <h5 class="card-title">{{ member.name }}</h5>
 {% if member.title %}
