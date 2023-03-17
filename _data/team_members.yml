@@ -1,10 +1,11 @@
-- name: Oscar Esteban
-  photo: OscarEsteban-300x300.jpg
-  email: oscar.esteban@unil.ch
+- name: Mu Jiangshan
+  photo: 2018-07-11 232307.jpg
+  email: mujsh@mail.sdu.edu.cn; sdqzmjs@126.com
   education:
-    - Postdoc (2015-2020) Stanford University (CA, US)
-    - BEng. + MSc. (2009), MSc. (2010), PhD. (2015) Technical University of Madrid (Madrid, Spain)
-  title: Research and Teaching Ambizione FNS Fellow
+    - PhD.  (2021- )    Shandong University (Qingdao, China)
+    - M.Sc. (2018-2021) Shandong University (Qingdao, China)
+    - B.Sc. (2014-2018) Ocean University of China (Qingdao, China)
+  title: Ph.D. Student (2021 - currently)
   bio: |
     Oscar Esteban is a Research and Teaching Ambizione FNS Fellow at the Service of
     Radiology of the Lausanne University Hospital (CHUV) and the University of Lausanne.
