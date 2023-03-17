@@ -1,14 +1,14 @@
 ---
-title: "AxonLab :: Scientific outcomes and publications"
+title: "Jiangshan :: Scientific outcomes and publications"
 layout: default
-excerpt: "AxonLab -- Scientific outcomes and publications"
+excerpt: "Jiangshan -- Scientific outcomes and publications"
 sitemap: false
 permalink: /publications/
 ---
 
 # Scientific outputs
 
-Below we list the most outstanding communications our lab has produced, next to the number of citations if applicable.
+Listed below are the articles I have published or contributed to, next to the number of citations if applicable.
 Number of citing references extracted from Google Scholar on Jan 4, 2023.
   
 <div class="accordion accordion-flush" id="accordionPublications">
