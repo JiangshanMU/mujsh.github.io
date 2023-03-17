@@ -15,106 +15,58 @@
 
 - Year: 2022
   Items:
+  - Citations: 0
+    DOI: 10.1016/j.scitotenv.2022.159951
+    Citation: >-
+      Mu, J., … (2022). Two-year online measurements of volatile organic compounds (VOCs) at four sites in a Chinese city: Significant impact of petrochemical industry. 
+      <i>Science of The Total Environment</i> <b>(1)</b>.
   - Citations: 2
     DOI: 10.1016/j.jenvman.2022.116327
     Citation: >-
       Zhao, M., … Mu, J., … (2022). Worsening ozone air pollution with reduced NOx and VOCs in the Pearl River Delta region in autumn 2019: Implications for national control policy in China. 
-      <i>Journal of Environmental Management</i> (5).
-  - Citations: 10
-    DOI: 10.1016/j.neuroimage.2022.119623
+      <i>Journal of Environmental Management</i> <b>(5)</b>.
+  - Citations: 1
+    DOI: 10.1029/2022JD037296
     Citation: >-
-      Niso, G., … Mu, J.,… (2022). Worsening ozone air pollution with reduced NOx and VOCs in the Pearl River Delta region in autumn 2019: Implications for national control policy in China. <i>Journal of Environmental Management</i>.
-  - Citations: 5
-    DOI: 10.3389/fninf.2021.669049
+      Zhang, Y., … Mu, J., … (2022). Developing the maximum incremental reactivity for volatile organic compounds in major cities of central-eastern China.
+      <i>Journal of Geophysical Research: Atmospheres</i> <b>(3)</b>.
+  - Citations: 4
+    DOI: 10.1016/j.scitotenv.2022.156281
     Year: 2022
     Citation: >-
-      MacNicol, E., … Cash, D. (2022).
-      Age-Specific Adult Rat Brain MRI Templates and Tissue Probability Maps.
-      <i>Frontiers in Neuroinformatics</i>.
-  - Citations: 3
-    DOI: 10.1007/s12021-022-09597-0
+      Liu, Z., … Mu, J. … (2022). Large contributions of anthropogenic sources to amines in fine particles at a coastal area in northern China in winter.
+      <i>Science of The Total Environment</i> <b>(7)</b>.
+  - Citations: 0
+    DOI: 10.1021/acsearthspacechem.2c00054
     Year: 2022
     Citation: >-
-      Di Noto, T., … Richiardi, J.
-      Towards Automated Brain Aneurysm Detection in TOF-MRA: Open Data, Weak Labels,
-      and Anatomical Knowledge. <i>Neuroinformatics</i>.
-  - Citations: 3
-    DOI: 10.1038/s41592-022-01458-7
-    Year: 2022
-    OA: https://doi.org/10.1101/2021.05.20.444998
-    Citation: >-
-      Adebimpe, A., … the ALLFTD Consortium. (2022).
-      ASLPrep: a platform for processing of arterial
-      spin labeled MRI and quantification of regional brain perfusion. <i>Nature Methods</i>.
+      Yu, C., … Mu, J. … (2022). Photoenhanced heterogeneous uptake of NO2 and HONO formation on authentic winter time urban grime.
+      <i>ACS Earth and Space Chemistry</i> <b>(10)</b>.
     
 - Year: Before 2022
   Items:
-  - Citations: 1383
-    DOI: 10.1038/s41592-018-0235-4
-    OA: https://doi.org/10.1101/306951
-    Year: 2019
-    Citation: >-
-      Esteban, O., … Gorgolewski, K. J. (2019).
-      fMRIPrep: a robust preprocessing pipeline for functional MRI.
-      <i>Nature Methods</i>
-  - Citations: 487
-    DOI: 10.1371/journal.pone.0184661
-    Year: 2017
-    Citation: >-
-      Esteban, O., … Gorgolewski, K. J. (2017).
-      MRIQC: Advancing the automatic prediction of image
-      quality in MRI from unseen sites. <i>Plos One</i>.
-  - Citations: 71
-    DOI: 10.7554/eLife.71774
+  - Citations: 36
+    DOI: 10.5194/acp-21-11053-2021
     Year: 2021
     Citation: >-
-      Markiewicz, C. J., … Poldrack, R. (2021). The OpenNeuro resource for
-      sharing of neuroscience data. <i>eLife</i>.
-  - Citations: 44
-    DOI: 10.1038/s41596-020-0327-3
-    Year: 2020
-    OA: https://doi.org/10.1101/694364
-    Citation: >-
-      Esteban, O., … Gorgolewski, K. J. (2020). Analysis of task-based functional MRI
-      data preprocessed with fMRIPrep. <i>Nature Protocols</i>.
-  - Citations: 37
-    DOI: 10.1038/s41597-019-0035-4
-    Year: 2019
-    Citation: >-
-      Esteban, O., … Gorgolewski, K. J. (2019). Crowdsourced MRI quality metrics
-      and expert quality annotations for training of humans and machines. <i>Scientific
-      Data</i>.
+      Zhang, Y., … Mu, J. … (2021). Development of ozone reactivity scales for volatile organic compounds in a Chinese megacity.
+      <i>Atmospheric Chemistry and Physics</i> <b>(6)</b>.
   - Citations: 14
-    DOI: 10.1016/j.neuron.2021.04.001
+    DOI: 10.1016/j.scitotenv.2021.146265
     Year: 2021
     Citation: >-
-      Gau, R., … Zuo, X.-N. (2021).
-      Brainhack: Developing a culture of open, inclusive,
-      community-driven neuroscience. <i>Neuron</i>.
-  - Citations: 13
-    DOI: 10.1093/gigascience/giab051
+      Liu, Y., … Mu, J. … (2021). Formation of peroxyacetyl nitrate (PAN) and its impact on ozone production in the coastal atmosphere of Qingdao, North China.
+      <i>Science of The Total Environment</i> <b>(3)</b>.
+  - Citations: 9
+    DOI: 10.1029/2020JD033519
     Year: 2021
     Citation: >-
-      Levitis, E., … Maumet, C. (2021).
-      Centering inclusivity in the design of online conferences—An OHBM–Open Science perspective,
-      <i>GigaScience</i>, Volume 10, Issue 8, August 2021, giab051.
-  - Citations: 13
-    DOI: 10.1016/j.neuroimage.2016.05.011
-    Year: 2016
-    OA: http://www2.die.upm.es/im/papers/Neuroimage2016.pdf
+      Zhang, Y., … Mu, J. … (2021). Source apportionment of regional ozone pollution observed at Mount Tai, North China: application of Lagrangian photochemical trajectory model and implications for control policy.
+      <i>Journal of Geophysical Research: Atmospheres</i> <b>(5)</b>.
+  - Citations: 8
+    DOI: 10.3390/atmos11020212
+    Year: 2020
     Citation: >-
-      Esteban, O., … Santos, A. (2016). Surface-driven registration method
-      for the structure-informed segmentation of diffusion MR images. <i>NeuroImage</i>.
-  - Citations: 1
-    DOI: 10.21105/joss.03459
-    Year: 2021
-    Citation: >-
-      Goncalves, M., … Esteban, O.
-      (2021). NiTransforms: A Python tool to read, represent, manipulate,
-      and apply dimensional spatial transforms. <i>Journal of Open Source Software</i>.
-  - Citations: 1
-    DOI: 10.1016/j.bpsc.2020.12.002
-    Year: 2021
-    Citation: >-
-      Rodrigue, A. L., … Glahn, D. C. (2021). Searching for Imaging Biomarkers of Psychotic
-      Dysconnectivity. <i>Biological Psychiatry: Cognitive Neuroscience and Neuroimaging</i>.
+      Li, H., … Mu, J. … (2020). Evaluation of the performance of low-cost air quality sensors at a high mountain station with complex meteorological conditions.
+      <i>Atmospheres</i> <b>(8)</b>.
+ 
