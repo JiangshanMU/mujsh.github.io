@@ -1,3 +1,8 @@
+- date: March 16, 2023
+  headline: "The website is up!"
+  body: |
+    Reusing [code from the Allan Lab](http://www.allanlab.org/aboutwebsite.html) (thanks!), we have set up this website.
+
 - date: Mar, 2023
   headline: |
     The <a href="https://www.sciencedirect.com/science/article/pii/S0160412023001344"><em>PM2.5 and Machine Learning </em> paper</a> is out!
@@ -10,54 +15,24 @@
   body: |
     Jiangshan joined the XYZ-CHANGE(Climate Health and Air quality for Next GEneration) group led by Prof. Zhang Yuqiang!
     
+- date: Dec, 2022
+  headline: Winter observation experiment in Qingdao!
+  body: |
+    Jiangshan participated in a winter observation experiment in Qingdao organized by Shandong University, Hong Kong Polytechnic University and Guangzhou Institute of Geochemistry.
+    
 - date: Nov, 2022
   headline: Pass mid-thesis exam, congrats!
   body: |
     Jiangshan passed mid-thesis exam and received "Excellent".
 
-- date: Oct, 2022
+- date: Sep-Oct, 2022
   headline: |
-    The <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969722070516"><em>Ji'nan VOCs</em> paper</a> is out!
+    Instrument repair in Suzhou.
   body: |
-    My first SCI article ["Two-year online measurements of volatile organic compounds (VOCs) at four sites in a Chinese city: Significant impact of petrochemical industry"](https://www.sciencedirect.com/science/article/abs/pii/S0048969722070516) was accepted by STOTEN! Came a little too late hhh
+    Repair of I-CIMS in Suzhou with Yohong Liu.
     
-- date: Dec 1, 2022
-  headline: "Welcome Elodie!"
+- date: Jun, 2022
+  headline: Dr. Zhang graduated from SDU, congrats!
   body: |
-    **Elodie Savary**, Ph.D., has joined *The AxonLab* to take over the development and community of *NiPreps*.
-
-- date: Sep 16, 2022
-  headline: "Céline passed her mid-thesis exam, congrats!"
-  body: |
-    Céline passed the exam with flying colors.
-
-- date: Sep 08, 2022
-  headline: |
-    <a href="https://recrutement.chuv.ch/vacancy/software-developer-for-radiology-department-272565.html">Join <em>The AxonLab</em></a> as a Python developer!
-  body: |
-    A new 1yr (extensible to 2yr) position
-    ([link](https://recrutement.chuv.ch/vacancy/software-developer-for-radiology-department-272565.html))
-    is available to push the [*NiPreps* project](https://nipreps.org) forward.
-
-- date: Feb 1, 2022
-  headline: "Two abstracts accepted by ISMRM'22 and OHBM'22 - Congratulations Céline!"
-  body: |
-    Céline will be presenting in London (ISMRM'22) and Glasgow (OHBM'22) her work on [fMRI QC](https://doi.org/10.31219/osf.io/hz52v) and [consequences of defacing](https://doi.org/10.31219/osf.io/8mcyz), respectively.
-
-- date: Jul 19, 2021
-  headline: |
-    The <a href="https://www.nipreps.org"><em>NiPreps</em> project</a> has received a 3-year R01 to continue development of the ecosystem!
-
-  body: |
-    As [previously announced](https://twitter.com/russpoldrack/status/1417184583028658204) by Prof. Poldrack, we have
-    received support from the NIMH to continue *NiPreps*.
-
-- date: Jan 4, 2021
-  headline: "Welcome Céline!"
-  body: |
-    **Céline Provins**, M.Sc., has joined *The AxonLab* to start a Ph.D. program on MRI reliability and networks.
-
-- date: March 1, 2020
-  headline: "The website is up!"
-  body: |
-    Reusing [code from the Allan Lab](http://www.allanlab.org/aboutwebsite.html) (thanks!), we have set up this website.
+    My girlfriend, Yingnan Zhang, received her PhD from Shandong University and went to Hong Kong Polytechnic as a postdoctoral researcher.
+    
