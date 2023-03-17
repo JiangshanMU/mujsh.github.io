@@ -80,13 +80,12 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="row">
 <div id="rc7-map" style="width: 450px; float: left; margin-right: 10px">
-<iframe src="https://www.google.com.hk/maps/place/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E9%9D%92%E5%B2%9B%E6%A0%A1%E5%8C%BA/@36.3552622,120.6864393,17z/data=!3m1!4b1!4m6!3m5!1s0x359659f2eee4791f:0x776a63c1f1ddd4a9!8m2!3d36.355258!4d120.690924!16s%2Fg%2F11cnpw3p4n?hl=zh-CN" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/place/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E9%9D%92%E5%B2%9B%E6%A0%A1%E5%8C%BA/@36.3552623,120.6887353,17z/data=!3m1!4b1!4m6!3m5!1s0x359659f2eee4791f:0x776a63c1f1ddd4a9!8m2!3d36.355258!4d120.690924!16s%2Fg%2F11cnpw3p4n" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 My office is located in Jimo, Qingdao, Shandong Province, <br />
 on the 3th floor of K6-Ganchang Yuan.
 
-<div class="well" style="margin-left: 460px">
 *For post contact, please address me at* <br />
 72 Binhai Road, Jimo, Qingdao, P.R. China <br />
 Postal Code: 266237 <br />
