@@ -1,5 +1,5 @@
 - name: Mu Jiangshan
-  photo: 2018-07-11 232307.jpg
+  photo: MJS.jpg
   email: mujsh@mail.sdu.edu.cn; sdqzmjs@126.com
   education:
     - PhD.  (2021- )    Shandong University (Qingdao, China)
@@ -28,50 +28,4 @@
     - '[Google Scholar](https://scholar.google.ch/citations?user=sipSQH8AAAAJ&hl=en)'
     - '[ORCID](https://orcid.org/0000-0001-8435-6191)'
     - '[Publons](https://publons.com/researcher/311253)'
-
-- name: Céline Provins
-  photo: provins.jpg
-  email: celine.provins@unil.ch
-  title: Ph.D. Student (2021 - currently)
-  education:
-    - M.Sc. (2018-2020) EPFL (Lausanne, Switzerland)
-    - 1 year exchange Uppsala University (Sweden)
-    - B.Sc. (2015-2017) EPFL (Lausanne, Switzerland)
-  bio: |
-    Céline's background is in Physics.
-    In her master's, she gained plenty of experience in MRI research by
-    contributing to four projects, ranging from semi-automatic segmentation of knee calcifications
-    to analyzing recurrent brain co-activation patterns using clustering.
-    In her PhD, she is working 
-    on standardizing the quality control and the preprocessing of both structural and functional 
-    MRI data.
-    In particular, she is contributing to the development of easy-to-use toolboxes that automatize those processes. 
-    Examples of such toolboxes are [*MRIQC*](https://mriqc.readthedocs.io/) and [*fMRIPrep*](https://fmriprep.org).
-    She is also interested in supporting open science and reproducibility of MRI research.
-    Her further goal is to determine the optimal preprocessing flow by performing tests on one densely-acquired patient. 
-    This will enable to focus on the methodological variability by removing inter-subject variability.
-    On a third step, 
-    she will engage in bridging structure and function into a single framework and apply the methodology 
-    developed to the study of the integrative role of the Thalamus.
-
-  links:
-    - '[ORCID](https://orcid.org/0000-0002-1668-9629)'
-
-- name: Elodie Savary
-  photo: photo_esavary300x300.png
-  email: elodie.savary@outlook.com
-  title: Scientific software developer 
-  education:
-    - PhD. (2022) EPFL (Lausanne, Switzerland)
-    - M.Sc. (2018) EPFL (Lausanne, Switzerland)
-    - B.Sc. (2016) EPFL (Lausanne, Switzerland)
-  bio: |
-    My background is in Astrophysics. During my PhD, I developed deep-learning tools to classify, segment and generate images.
-    In addition to a machine learning core, my PhD research involved a substantial amount of image processing.
-    In The AxonLab, I contribute to implementing preprocessing tools under the umbrella of the [*NiPreps* ecosystem](https://nipreps.org) to improve computational reproducibility and reduce methodological variability in MRI research.
-    In addition to this, I am strongly committed to promoting open science.
-
-  links:
-    - '[Google Scholar](https://scholar.google.com/citations?user=2eOoXSoAAAAJ&hl=en)'
-    - '[ORCID](https://orcid.org/0000-0002-3896-6906)'
     
