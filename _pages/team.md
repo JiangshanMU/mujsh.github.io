@@ -1,7 +1,7 @@
 ---
-title: "AxonLab :: About us"
+title: "Jiangshan :: About me"
 layout: default
-excerpt: "AxonLab -- Team members"
+excerpt: "Jiangshan -- About me"
 sitemap: false
 permalink: /team/
 ---
@@ -13,9 +13,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 -->
 
 
-# About us
+# About me
 
-## Our team
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
