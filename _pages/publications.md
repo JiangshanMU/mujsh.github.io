@@ -8,8 +8,8 @@ permalink: /publications/
 
 # Scientific outputs
 
-Listed below are the articles I have published or contributed to, next to the number of citations if applicable.
-Number of citing references extracted from Google Scholar on Jan 4, 2023.
+Listed below are the articles I have published or contributed to, with my authorship in parentheses, next to the number of citations if applicable.
+Number of citing references extracted from Google Scholar on Mar 17, 2023.
   
 <div class="accordion accordion-flush" id="accordionPublications">
 <div class="accordion-item">
