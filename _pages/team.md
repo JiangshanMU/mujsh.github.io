@@ -51,7 +51,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 
 {% if member.bio %}
-<p><small>{{ member.bio }}</small></p>
+<p style="width: 100%"><small>{{ member.bio }}</small></p>
 {% endif %}
 
 {% if member.education %}
