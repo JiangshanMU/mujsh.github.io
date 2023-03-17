@@ -76,7 +76,6 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-
 ## Contact
 
 <div class="row">
