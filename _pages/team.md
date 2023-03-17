@@ -43,7 +43,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <p class="card-text">email: <{{ member.email }}></p>
 {% endif %}
 {% if member.links %}
-<p class="card-text"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
+<p class="card-text" style="width: 50%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
 {% endif %}
 </div>
 </div>
