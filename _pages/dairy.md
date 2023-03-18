@@ -19,7 +19,7 @@ permalink: /dairy/
 </div>
   
 <div class="col-sm-4">
-<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/szk3.jpg" alt="Picture 3" style="width:100%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/skz3.jpg" alt="Picture 3" style="width:100%">
 <h3>沙子口</h3>
 </div>
   
