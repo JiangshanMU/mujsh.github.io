@@ -22,4 +22,5 @@ permalink: /dairy/
 <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/szk3.jpg" alt="Picture 3" style="width:100%">
 <h3>Title 3</h3>
 </div>
+  
 </div>
