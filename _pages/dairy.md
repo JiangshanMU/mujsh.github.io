@@ -1,9 +1,9 @@
 ---
-title: "Jiangshan == Dairy"
+title: "Jiangshan == dairy"
 layout: gridlay
-excerpt: "Dairy"
+excerpt: "dairy"
 sitemap: false
-permalink: /Dairy/
+permalink: /dairy/
 ---
 
 <div class="row">
