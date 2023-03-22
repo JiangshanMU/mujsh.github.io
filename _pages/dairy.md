@@ -8,7 +8,7 @@ permalink: /dairy/
 
 # Enjoy my life
 
-Here, I will share some states in my life, which may be photos, text or any other form.
+Here are some glimpses into my life, in the form of photos, text, and more.
 
 <div class="row">
 
