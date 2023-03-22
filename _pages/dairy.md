@@ -11,7 +11,12 @@ permalink: /dairy/
 Here, I will share some states in my life, which may be photos, text or any other form.
 
 <div class="row">
-  
+
+<div class="col-sm-4">
+<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/SDU-sea.jpg" alt="Picture 7" style="width:100%">
+<h3 class="text-center" style="font-size: 12px;">SDU-23.3.19, Nikon D5600</h3>
+</div>  
+
 <div class="col-sm-4">
 <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/szk1.jpg" alt="Picture 1" style="width:100%">
 <h3 class="text-center" style="font-size: 12px;">Sha Zi Kou-23.3.5, Nikon D5600</h3>
