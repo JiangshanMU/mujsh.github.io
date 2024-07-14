@@ -14,26 +14,31 @@
   headline: "Happy New Year"
   body: |
     The TRACE group spent New Year's Eve together at Yuhong's house.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/year.jpg"
 
 - date: November 7, 2023
   headline: "Champion of the House Badminton Match."
   body: |
     I won the men's singles champion in the college badminton tournament, and four students from the TRACE group took the top four places in the women's singles.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ymq.jpg"
 
 - date: September 20-22, 2023
   headline: "2023 ABaCAS & Atmospheric Haze conference."
   body: |
     Our department successfully hosted the 2023 ABaCAS & Atmospheric Haze conference in Qingdao, Shandong.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/abacas.jpg"
 
 - date: September 17, 2023
   headline: "CHANGE Group 1st Badminton Tournament."
   body: |
     The CHANGE subject group organised the first badminton tournament.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ymqchange.jpg"
 
 - date: August 6-12, 2023
   headline: "My trip in Hong Kong."
   body: |
     I spent a week in Hong Kong and Macau, but in the meantime I got sick.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/hk.jpg"
 
 - date: July 13, 2023
   headline: "Our new name: TRACE!"
@@ -44,6 +49,7 @@
   headline: "My 26th Birthday."
   body: |
     I had my 26th birthday, thanks.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/birthday.jpg"
 
 - date: June 10-11, 2023
   headline: "GAC group summer trip!"
@@ -54,21 +60,25 @@
   headline: "Zhang Ji defended his thesis"
   body: |
     Zhang Ji defended his academic thesis, received his master's degree and will go to Nanjing University to study for a doctorate degree.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/zj.jpg"
 
 - date: May 15-16, 2023
   headline: "China Blue Book on Prevention and Control of Atmospheric Ozone Pollution 2023 - Expert Consultation Meeting"
   body: |
     Our department successfully hosted "China Blue Book on Prevention and Control of Atmospheric Ozone Pollution 2023 - Expert Consultation Meeting" in Qingdao, Shandong.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/lps.jpg"
     
 - date: April 7, 2023
   headline: "Lectures on Artificial Intelligence"
   body: |
     I attended a lecture on Artificial Intelligence and OpenAI at Shandong University Central Campus (Jinan).
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ai.jpg"
 
 - date: March 31-April 2, 2023
   headline: "The 4th Academic Forum on Biogeochemical Cycle of Nitrogen."
   body: |
     I participated in [the 4th Academic Forum on Biogeochemical Cycle of Nitrogen](https://www.ues.pku.edu.cn/xyxw/369444.htm) held at Peking University.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/N.jpg"
     
 - date: March 25, 2023
   headline: "GAC group spring trip！"
