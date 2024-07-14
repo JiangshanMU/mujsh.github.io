@@ -9,7 +9,7 @@ permalink: /allnews.html
 # News and announcements
 
 {% for article in site.data.news %}
-### <span style="color: darkred;">{{ article.headline }}</span>
+### <span style="color: darkred;">{{ article.headline }}
 {{ article.date }}
 
 {{ article.body }}
