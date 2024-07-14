@@ -21,7 +21,7 @@ permalink: /allnews.html
 {% endfor %}
 
 <!-- Modal for image display -->
-<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; display:flex; align-items:center; justify-content:center;" onclick="closeImage()">
+<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; display:flex; align-items:center; justify-content:center; overflow:auto;" onclick="closeImage()">
   <img id="modalImage" src="" style="max-width:90%; max-height:90%; border:none;" />
 </div>
 
@@ -57,5 +57,11 @@ permalink: /allnews.html
     font-weight: bold;
     color: darkred;
     cursor: pointer;
+  }
+  #imageModal {
+    border: none; /* 移除模态窗口的边框 */
+  }
+  #modalImage {
+    border: none; /* 移除图片的边框 */
   }
 </style>
