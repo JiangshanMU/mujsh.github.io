@@ -21,14 +21,18 @@ permalink: /allnews.html
 {% endfor %}
 
 <!-- Modal for image display -->
-<div id="imageModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background:white; padding:20px; border:2px solid black; z-index:1000;">
+<div id="imageModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background:white; padding:20px; z-index:1000;">
   <span style="cursor:pointer; position:absolute; top:10px; right:10px;" onclick="closeImage()">X</span>
-  <img id="modalImage" src="" style="max-width:100%; max-height:100%;" />
+  <img id="modalImage" src="" style="max-width:100%; max-height:100%; border:none;" />
 </div>
 
 <script>
   function showImage(element) {
     var imageUrl = element.getAttribute('data-image');
+    if (!imageUrl) {
+      alert('Image URL not found!');
+      return;
+    }
     var modal = document.getElementById('imageModal');
     var modalImage = document.getElementById('modalImage');
     modalImage.src = imageUrl;
@@ -49,5 +53,11 @@ permalink: /allnews.html
     font-weight: bold;
     color: darkred;
     cursor: pointer;
+  }
+  #imageModal {
+    border: none; /* 移除模态窗口的边框 */
+  }
+  #modalImage {
+    border: none; /* 移除图片的边框 */
   }
 </style>
