@@ -43,25 +43,31 @@ permalink: /allnews.html
 </style>
 
 <script>
-  function showImage(element) {
-    var imageUrl = element.getAttribute('data-image');
-    if (!imageUrl) {
-      alert('Image URL not found!');
-      return;
+  document.addEventListener('DOMContentLoaded', function() {
+    function showImage(element) {
+      var imageUrl = element.getAttribute('data-image');
+      if (!imageUrl) {
+        alert('Image URL not found!');
+        return;
+      }
+      var modal = document.getElementById('imageModal');
+      var modalImage = document.getElementById('modalImage');
+      modalImage.src = imageUrl;
+      modal.style.display = 'flex';
     }
-    var modal = document.getElementById('imageModal');
-    var modalImage = document.getElementById('modalImage');
-    modalImage.src = imageUrl;
-    modal.style.display = 'flex';
-  }
 
-  function closeImage() {
-    var modal = document.getElementById('imageModal');
-    modal.style.display = 'none';
-  }
+    function closeImage() {
+      var modal = document.getElementById('imageModal');
+      modal.style.display = 'none';
+    }
 
-  // Prevent closing the modal when clicking on the image
-  document.getElementById('modalImage').addEventListener('click', function(event) {
-    event.stopPropagation();
+    // Prevent closing the modal when clicking on the image
+    document.getElementById('modalImage').addEventListener('click', function(event) {
+      event.stopPropagation();
+    });
+
+    // Assign functions to global scope to be accessible from HTML
+    window.showImage = showImage;
+    window.closeImage = closeImage;
   });
 </script>
