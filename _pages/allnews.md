@@ -22,7 +22,7 @@ permalink: /allnews.html
 
 <!-- Modal for image display -->
 <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; display:flex; align-items:center; justify-content:center; overflow:auto;" onclick="closeImage()">
-  <img id="modalImage" src="" style="max-width:90%; max-height:90%; border:none;" onclick="event.stopPropagation();" />
+  <img id="modalImage" src="" style="max-width:90%; max-height:90%; border:none;" />
 </div>
 
 <style>
@@ -60,6 +60,11 @@ permalink: /allnews.html
       var modal = document.getElementById('imageModal');
       modal.style.display = 'none';
     }
+
+    // Close modal when clicking anywhere in the modal
+    document.getElementById('imageModal').addEventListener('click', function() {
+      closeImage();
+    });
 
     // Assign functions to global scope to be accessible from HTML
     window.showImage = showImage;
