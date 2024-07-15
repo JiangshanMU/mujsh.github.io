@@ -25,6 +25,23 @@ permalink: /allnews.html
   <img id="modalImage" src="" style="max-width:90%; max-height:90%; border:none;" />
 </div>
 
+<style>
+  .event {
+    margin-bottom: 20px;
+  }
+  .event-title {
+    font-weight: bold;
+    color: darkred;
+    cursor: pointer;
+  }
+  #imageModal {
+    border: none; /* 移除模态窗口的边框 */
+  }
+  #modalImage {
+    border: none; /* 移除图片的边框 */
+  }
+</style>
+
 <script>
   function showImage(element) {
     var imageUrl = element.getAttribute('data-image');
@@ -48,20 +65,3 @@ permalink: /allnews.html
     event.stopPropagation();
   });
 </script>
-
-<style>
-  .event {
-    margin-bottom: 20px;
-  }
-  .event-title {
-    font-weight: bold;
-    color: darkred;
-    cursor: pointer;
-  }
-  #imageModal {
-    border: none; /* 移除模态窗口的边框 */
-  }
-  #modalImage {
-    border: none; /* 移除图片的边框 */
-  }
-</style>
