@@ -21,8 +21,8 @@ permalink: /allnews.html
 {% endfor %}
 
 <!-- Modal for image display -->
-<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; display:flex; align-items:center; justify-content:center; overflow:auto;">
-  <img id="modalImage" src="" style="max-width:90%; max-height:90%; border:none;" />
+<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; display:flex; align-items:center; justify-content:center; overflow:auto;" onclick="closeImage()">
+  <img id="modalImage" src="" style="max-width:90%; max-height:90%; border:none;" onclick="event.stopPropagation();" />
 </div>
 
 <style>
@@ -61,16 +61,8 @@ permalink: /allnews.html
       modal.style.display = 'none';
     }
 
-    // Prevent closing the modal when clicking on the image
-    document.getElementById('modalImage').addEventListener('click', function(event) {
-      event.stopPropagation();
-    });
-
     // Assign functions to global scope to be accessible from HTML
     window.showImage = showImage;
     window.closeImage = closeImage;
-
-    // Initialize modal display style
-    closeImage();
   });
 </script>
