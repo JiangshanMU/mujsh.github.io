@@ -38,7 +38,7 @@ During my doctoral training, I participated in several field campaigns, includin
 I am deeply inspired by the pursuit of science. It is a journey of exploring the unknown, requiring persistence, curiosity, and humility. The most poetic and meaningful life I can imagine is one spent seeking truth.
 
 If you are interested in collaboration, academic exchange, or simply a conversation, feel free to contact me at  
-📧 <a href="mailto:mujsh@mail.sdu.edu.cn"><strong>mujsh@mail.sdu.edu.cn</strong></a>.  
+📧 <a href="mailto:mujiangshan0615@gmail.com"><strong>mujiangshan0615@gmail.com</strong></a>.  
 Let’s explore, discover, and grow together.
 
 <!-- Carousel (currently disabled)
