@@ -1,16 +1,24 @@
 <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
-	<div class="container-fluid">
-		<a class="navbar-brand me-auto" href="{{ site.url }}{{ site.baseurl }}/">Mu, Jiangshan></a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarNavAltMarkup">
-		<div class="navbar-nav ms-auto">
-			<a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
-			<a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a>
-			<a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/team">Personal information</a>
-			<a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/dairy">Dairy</a>
-		</div>
-		</div>
-	</div>
+  <div class="container-fluid">
+    <!-- 左侧品牌/标题，自动读取 config.yml -->
+    <a class="navbar-brand me-auto" href="{{ site.url }}{{ site.baseurl }}/">
+      {{ site.title | default: "Jiangshan Mu, Ph.D." }}
+    </a>
+
+    <!-- 小屏幕折叠按钮 -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- 右侧菜单 -->
+    <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a>
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/team">About Me</a>
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/dairy">Diary</a>
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a>
+      </div>
+    </div>
+  </div>
 </nav>
