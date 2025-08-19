@@ -23,7 +23,7 @@ permalink: /
 </div>
 </div>
 
-Hello, my name is **Jiangshan Mu**, and I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University in **June 2025**. I was co-advised by [Prof. Li-kun Xue](https://www.hj.sdu.edu.cn/info/1015/1532.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm). I will begin my postdoctoral research at **Duke University (USA)** in **November 2025**.
+Hello, my name is **Jiangshan Mu**, and I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University in **June 2025**. I was co-advised by [Prof. Likun Xue](https://www.hj.sdu.edu.cn/info/1015/1532.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm). I will begin my postdoctoral research at **Duke University ** in **November 2025**.
 
 My research focuses on the interactions between atmospheric composition and environmental health. I am particularly interested in:
 
