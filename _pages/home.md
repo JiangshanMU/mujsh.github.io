@@ -8,19 +8,18 @@ permalink: /
 
 # Welcome to Jiangshan's Home
 
-<div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding-top: 20px" >
-<div class="well">
-<h4>Latest News</h4>
-<p>(Find out more at the <a href="{{ '/allnews.html' | relative_url }}">news page</a>.)</p>
-<hr style="margin-top: 22px; margin-bottom: 8px;" />
-{% for article in site.data.news limit:6 %}
-<p>
-<em>{{ article.headline }}</em> ({{ article.date }})</p>
-{% unless forloop.last %}
-<hr style="margin-top: 5px; margin-bottom: 8px;" />
-{% endunless %}
-{% endfor %}
-</div>
+<div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding-top: 20px;">
+  <div class="well">
+    <h4>Latest News</h4>
+    <p>(Find out more at the <a href="{{ '/allnews.html' | relative_url }}">news page</a>.)</p>
+    <hr style="margin-top: 22px; margin-bottom: 8px;" />
+    {% for article in site.data.news limit:6 %}
+      <p><em>{{ article.headline }}</em> ({{ article.date }})</p>
+      {% unless forloop.last %}
+        <hr style="margin-top: 5px; margin-bottom: 8px;" />
+      {% endunless %}
+    {% endfor %}
+  </div>
 </div>
 
 Hello, my name is **Jiangshan Mu**, and I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University in June 2025. I was co-advised by [Prof. Li-kun Xue](https://www.hj.sdu.edu.cn/info/1015/1532.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm). I will begin my postdoctoral research at **Duke University (USA)** in November 2025.
@@ -37,7 +36,46 @@ During my doctoral training, I participated in several field campaigns, includin
 <!-- Carousel temporarily disabled -->
 <!--
 <div id="home-carousel" class="carousel slide col-sm-7 ms-me-auto" data-bs-ride="carousel">
-  ...
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ '/images/slider7001400/STOTEN.png' | relative_url }}" class="d-block w-100" alt="Research image 1">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/images/slider7001400/JESZM.jpg' | relative_url }}" class="d-block w-100" alt="Research image 2">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/images/slider7001400/jgrzyn.jpg' | relative_url }}" class="d-block w-100" alt="Research image 3">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/images/slider7001400/acpzyn.png' | relative_url }}" class="d-block w-100" alt="Research image 4">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/images/slider7001400/STOTENLYH.jpg' | relative_url }}" class="d-block w-100" alt="Research image 5">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/images/slider7001400/JESJYR.jpg' | relative_url }}" class="d-block w-100" alt="Research image 6">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/images/slider7001400/acsyc.jpeg' | relative_url }}" class="d-block w-100" alt="Research image 7">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 -->
 
