@@ -1,5 +1,5 @@
 ---
-title: "Jiangshan Mu's Website == Welcome!"
+title: "Jiangshan Mu, Ph.D. | Homepage"
 layout: default
 excerpt: "Welcome to Jiangshan's Home!"
 sitemap: false
@@ -29,49 +29,50 @@ My research interests lie in studying the interactions between the atmosphere an
 
 During my graduate studies, I have participated in many field work experiments, including high-mountain observations and aircraft measurements, etc.
 
-<!-- Carousel -->
+<!-- Carousel temporarily disabled
 <div id="home-carousel" class="carousel slide col-sm-7 ms-me-auto" data-bs-ride="carousel">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-<button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-<button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-<button type="button" data-bs-target="#home-carousel" data-bs-slide-to="5" aria-label="Slide 7"></button>
-<button type="button" data-bs-target="#home-carousel" data-bs-slide-to="6" aria-label="Slide 8"></button>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="5" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="6" aria-label="Slide 8"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTEN.png" class="d-block w-100" alt="fMRIPrep & tools" />
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESZM.jpg" class="d-block w-100" alt="fMRIPrep workflow">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jgrzyn.jpg" class="d-block w-100" alt="QA/QC of MRI data & MRIQC">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acpzyn.png" class="d-block w-100" alt="Neuroimaging methods development">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTENLYH.jpg" class="d-block w-100" alt="Reliabilty of MRI measurements">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESJYR.jpg" class="d-block w-100" alt="TemplateFlow -- neuroimaging templates and atlases">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acsyc.jpeg" class="d-block w-100" alt="MRIQC -- Visual reports">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-<div class="carousel-inner">
-<div class="carousel-item active">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTEN.png" class="d-block w-100" alt="fMRIPrep & tools" />
-</div>
-<div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESZM.jpg" class="d-block w-100" alt="fMRIPrep workflow">
-</div>
-<div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jgrzyn.jpg" class="d-block w-100" alt="QA/QC of MRI data & MRIQC">
-</div>
-<div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acpzyn.png" class="d-block w-100" alt="Neuroimaging methods development">
-</div>
-<div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTENLYH.jpg" class="d-block w-100" alt="Reliabilty of MRI measurements">
-</div>
-<div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESJYR.jpg" class="d-block w-100" alt="TemplateFlow -- neuroimaging templates and atlases">
-</div>
-<div class="carousel-item">
-<img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acsyc.jpeg" class="d-block w-100" alt="MRIQC -- Visual reports">
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
+-->
 
 I am fortunate and grateful that science exists in this world, as it has brought me the life I have always dreamed of. It is an endless pursuit, towering above and delving into the depths, requiring great effort and dedication over many years. The most poetic and romantic life I can imagine is one spent on a journey in search of truth.
 
