@@ -11,7 +11,7 @@ permalink: /
 <div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding-top: 20px;">
   <div class="well">
     <h4>Latest News</h4>
-    <p>(Find out more at the <a href="{{ '/allnews.html' | relative_url }}">news page</a>.)</p>
+    <p>(Find out more at the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.)</p>
     <hr style="margin-top: 22px; margin-bottom: 8px;" />
     {% for article in site.data.news limit:6 %}
       <p><em>{{ article.headline }}</em> ({{ article.date }})</p>
