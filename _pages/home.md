@@ -8,23 +8,25 @@ permalink: /
 
 # Welcome to Jiangshan's Home
 
-<div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding-top: 20px;">
-  <div class="well">
-    <h4>Latest News</h4>
-    <p>(Find out more at the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.)</p>
-    <hr style="margin-top: 22px; margin-bottom: 8px;" />
-    {% for article in site.data.news limit:6 %}
-      <p><em>{{ article.headline }}</em> ({{ article.date }})</p>
-      {% unless forloop.last %}
-        <hr style="margin-top: 5px; margin-bottom: 8px;" />
-      {% endunless %}
-    {% endfor %}
-  </div>
+<div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding-top: 20px" >
+<div class="well">
+<h4>Latest News</h4>
+<p>(Find out more at the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.)</p>
+<hr style="margin-top: 22px; margin-bottom: 8px;" />
+{% for article in site.data.news limit:6 %}
+<p>
+<em>{{ article.headline }}</em> ({{ article.date }})</p>
+{% unless forloop.last %}
+<hr style="margin-top: 5px; margin-bottom: 8px;" />
+{% endunless %}
+{% endfor %}
+</div>
 </div>
 
-Hello, my name is **Jiangshan Mu**, and I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University in June 2025. I was co-advised by [Prof. Li-kun Xue](https://www.hj.sdu.edu.cn/info/1015/1532.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm). I will begin my postdoctoral research at **Duke University (USA)** in November 2025.
+Hello, my name is **Jiangshan Mu**, and I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University in **June 2025**. I was co-advised by [Prof. Li-kun Xue](https://www.hj.sdu.edu.cn/info/1015/1532.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm). I will begin my postdoctoral research at **Duke University (USA)** in **November 2025**.
 
 My research focuses on the interactions between atmospheric composition and environmental health. I am particularly interested in:
+
 - **Global inequalities in pollutant exposure and health impacts**
 - **Atmospheric data reconstruction using machine learning**
 - **Urbanization and environmental justice**
@@ -33,8 +35,13 @@ I have developed **high-resolution NO₂ datasets (2005–2023)** using Transfor
 
 During my doctoral training, I participated in several field campaigns, including **high-altitude mountain observations** and **aircraft-based measurements**. From January to May 2024, I conducted collaborative research as a visiting scholar at the **Universidad Politécnica de Madrid**, focusing on machine learning applications in extreme event attribution.
 
-<!-- Carousel temporarily disabled -->
-<!--
+I am deeply inspired by the pursuit of science. It is a journey of exploring the unknown, requiring persistence, curiosity, and humility. The most poetic and meaningful life I can imagine is one spent seeking truth.
+
+If you are interested in collaboration, academic exchange, or simply a conversation, feel free to contact me at  
+📧 <a href="mailto:mujsh@mail.sdu.edu.cn"><strong>mujsh@mail.sdu.edu.cn</strong></a>.  
+Let’s explore, discover, and grow together.
+
+<!-- Carousel (currently disabled)
 <div id="home-carousel" class="carousel slide col-sm-7 ms-me-auto" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -47,25 +54,25 @@ During my doctoral training, I participated in several field campaigns, includin
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ '/images/slider7001400/STOTEN.png' | relative_url }}" class="d-block w-100" alt="Research image 1">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTEN.png" class="d-block w-100" alt="STOTEN" />
     </div>
     <div class="carousel-item">
-      <img src="{{ '/images/slider7001400/JESZM.jpg' | relative_url }}" class="d-block w-100" alt="Research image 2">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESZM.jpg" class="d-block w-100" alt="JESZM">
     </div>
     <div class="carousel-item">
-      <img src="{{ '/images/slider7001400/jgrzyn.jpg' | relative_url }}" class="d-block w-100" alt="Research image 3">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jgrzyn.jpg" class="d-block w-100" alt="JGRZYN">
     </div>
     <div class="carousel-item">
-      <img src="{{ '/images/slider7001400/acpzyn.png' | relative_url }}" class="d-block w-100" alt="Research image 4">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acpzyn.png" class="d-block w-100" alt="ACPZYN">
     </div>
     <div class="carousel-item">
-      <img src="{{ '/images/slider7001400/STOTENLYH.jpg' | relative_url }}" class="d-block w-100" alt="Research image 5">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTENLYH.jpg" class="d-block w-100" alt="STOTENLYH">
     </div>
     <div class="carousel-item">
-      <img src="{{ '/images/slider7001400/JESJYR.jpg' | relative_url }}" class="d-block w-100" alt="Research image 6">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESJYR.jpg" class="d-block w-100" alt="JESJYR">
     </div>
     <div class="carousel-item">
-      <img src="{{ '/images/slider7001400/acsyc.jpeg' | relative_url }}" class="d-block w-100" alt="Research image 7">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acsyc.jpeg" class="d-block w-100" alt="ACSY">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
@@ -78,9 +85,3 @@ During my doctoral training, I participated in several field campaigns, includin
   </button>
 </div>
 -->
-
-> I am deeply inspired by the pursuit of science. It is a journey of exploring the unknown, requiring persistence, curiosity, and humility. The most poetic and meaningful life I can imagine is one spent seeking truth.
-
-If you are interested in collaboration, academic exchange, or simply a conversation, feel free to contact me at  
-📧 <a href="mailto:mujsh@mail.sdu.edu.cn"><strong>mujsh@mail.sdu.edu.cn</strong></a>.  
-Let’s explore, discover, and grow together.
