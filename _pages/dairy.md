@@ -4,6 +4,7 @@ layout: gridlay
 excerpt: "dairy"
 sitemap: false
 permalink: /dairy/
+published: false
 ---
 
 # Enjoy my life
