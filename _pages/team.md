@@ -23,7 +23,7 @@ permalink: /team/
 <!-- Card -->
 <div class="card mb-3 border-0" style="width: 100%">
 <div class="row g-0">
-<div class="col-md-4">
+<div class="col-md-2">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
 </div>
 <div class="col-md-10">
