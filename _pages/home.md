@@ -1,63 +1,87 @@
 ---
-title: "About me"
+title: "Jiangshan Mu, Ph.D. | Homepage"
 layout: default
-excerpt: "Mu Jiangshan -- About me"
+excerpt: "Welcome to Jiangshan's Home!"
 sitemap: false
-permalink: /team/
+permalink: /
 ---
 
-# About me
+# Welcome to Jiangshan's Home
 
-<!-- Card -->
-<div class="card mb-3 border-0" style="width: 100%">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/MJS2.png" class="img-fluid rounded-start" alt="Mu Jiangshan">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Mu Jiangshan</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Ph.D.</h6>
-        <p class="card-text">Email: <a href="mailto:mujiangshan0615@gmail.com">mujiangshan0615@gmail.com</a></p>
-        <p class="card-text" style="width: 100%">
-          <small>
-            <a href="https://www.researchgate.net/profile/Jiangshan-Mu-2" target="_blank">ResearchGate</a> |
-            <a href="https://scholar.google.com/citations?hl=zh-CN&user=fmUpOswAAAAJ" target="_blank">Google Scholar</a> |
-            <a href="https://www.webofscience.com/wos/author/record/HPE-9830-2023" target="_blank">Publons</a>
-          </small>
-        </p>
-      </div>
-    </div>
-  </div>
+<div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding-top: 20px" >
+<div class="well">
+<h4>Latest News</h4>
+<p>(Find out more at the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.)</p>
+<hr style="margin-top: 22px; margin-bottom: 8px;" />
+{% for article in site.data.news limit:6 %}
+<p>
+<em>{{ article.headline }}</em> ({{ article.date }})</p>
+{% unless forloop.last %}
+<hr style="margin-top: 5px; margin-bottom: 8px;" />
+{% endunless %}
+{% endfor %}
+</div>
 </div>
 
-<p style="width: 100%"><small>
-My name is Mu Jiangshan. I hold a Ph.D. in Atmospheric Environment from the Environmental Research Institute at Shandong University, where I was supervised by Professors Li-kun Xue and Yuqiang Zhang. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
-</small></p>
+Hello, my name is **Jiangshan Mu**, and I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University in **June 2025**. I was co-advised by [Prof. Likun Xue](https://www.hj.sdu.edu.cn/info/1015/1532.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm). I will begin my postdoctoral research at **Duke University** in **November 2025**.
 
-<ul style="overflow: hidden">
-  <li>Ph.D. in Atmospheric Environment (2021–2025), Shandong University, Qingdao, China</li>
-  <li>Visiting Scholar (Jan–May 2024), Universidad Politécnica de Madrid, Spain</li>
-  <li>M.Sc. in Environmental Science (2018–2021), Shandong University, Qingdao, China</li>
-  <li>B.Sc. in Environmental Science (2014–2018), Ocean University of China, Qingdao, China</li>
-</ul>
+My research focuses on the interactions between atmospheric composition and environmental health. I am particularly interested in:
 
-## Contact
+- **Global inequalities in pollutant exposure and health impacts**
+- **Atmospheric data reconstruction using machine learning**
+- **Urbanization and environmental justice**
 
-<iframe
-  src="https://map.baidu.com/search/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6(%E9%9D%92%E5%B2%9B%E6%A0%A1%E5%8C%BA)/@13434831.265,4326352.12,16z?querytype=s&da_src=shareurl&wd=%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6(%E9%9D%92%E5%B2%9B%E6%A0%A1%E5%8C%BA)&c=236&src=0&wd2=%E9%9D%92%E5%B2%9B%E5%B8%82%E5%8D%B3%E5%A2%A8%E5%8C%BA&pn=0&sug=1&l=12&b=(13341933.54,4254437.34;13461741.54,4315941.34)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&sug_forward=533a74c36e163bc3b23c81fc&device_ratio=1"
-  width="400"
-  height="300"
-  style="border:0;"
-  allowfullscreen=""
-  loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
+I have developed **high-resolution NO₂ datasets (2005–2023)** using Transformer-based models and analyzed disparities in exposure across countries and income levels. I also explore how **extreme events** such as wildfires affect atmospheric nitrogen deposition using machine learning and atmospheric models.
 
-<p>
-My office is located in Shandong University (Qingdao Campus)<br />
-Jimo, Qingdao, Shandong Province, on the 3rd floor of K6-Ganchang Yuan.<br />
-For post contact, please address me at:<br />
-72 Binhai Road, Jimo, Qingdao, P.R. China<br />
-Postal Code: 266237
-</p>
+During my doctoral training, I participated in several field campaigns, including **high-altitude mountain observations** and **aircraft-based measurements**. From January to May 2024, I conducted collaborative research as a visiting scholar at the **Universidad Politécnica de Madrid**, focusing on machine learning applications in extreme event attribution.
+
+I am deeply inspired by the pursuit of science. It is a journey of exploring the unknown, requiring persistence, curiosity, and humility. The most poetic and meaningful life I can imagine is one spent seeking truth.
+
+If you are interested in collaboration, academic exchange, or simply a conversation, feel free to contact me at  
+📧 <a href="mailto:mujiangshan0615@gmail.com"><strong>mujiangshan0615@gmail.com</strong></a>.  
+Let’s explore, discover, and grow together.
+
+<!-- Carousel (currently disabled)
+<div id="home-carousel" class="carousel slide col-sm-7 ms-me-auto" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTEN.png" class="d-block w-100" alt="STOTEN" />
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESZM.jpg" class="d-block w-100" alt="JESZM">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jgrzyn.jpg" class="d-block w-100" alt="JGRZYN">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acpzyn.png" class="d-block w-100" alt="ACPZYN">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/STOTENLYH.jpg" class="d-block w-100" alt="STOTENLYH">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/JESJYR.jpg" class="d-block w-100" alt="JESJYR">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/acsyc.jpeg" class="d-block w-100" alt="ACSY">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+-->
