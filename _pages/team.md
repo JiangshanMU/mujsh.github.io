@@ -49,8 +49,8 @@ permalink: /team/
 
     {% if member.education %}
       <ul style="overflow: hidden">
-        {% for edu_item in member.education %}
-          <li>{{ edu_item }}</li>
+        {% for edu in member.education %}
+          <li>{{ edu }}</li>
         {% endfor %}
       </ul>
     {% endif %}
@@ -61,29 +61,6 @@ permalink: /team/
   </div>
   {% endif %}
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
+{% if number_printed | modulo: 2 == 1 %}
 </div>
 {% endif %}
-
-## Contact
-
-<div class="row">
-  <div id="rc7-map" style="width: 450px; float: left; margin-right: 10px">
-    <iframe
-      src="https://map.baidu.com/search/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6(%E9%9D%92%E5%B2%9B%E6%A0%A1%E5%8C%BA)/@13434831.265,4326352.12,16z?querytype=s&da_src=shareurl&wd=%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6(%E9%9D%92%E5%B2%9B%E6%A0%A1%E5%8C%BA)&c=236&src=0&wd2=%E9%9D%92%E5%B2%9B%E5%B8%82%E5%8D%B3%E5%A2%A8%E5%8C%BA&pn=0&sug=1&l=12&b=(13341933.54,4254437.34;13461741.54,4315941.34)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&sug_forward=533a74c36e163bc3b23c81fc&device_ratio=1"
-      width="400"
-      height="300"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
-  My office is located in Shandong University (Qingdao Campus)<br />
-  Jimo, Qingdao, Shandong Province, on the 3rd floor of K6-Ganchang Yuan.<br />
-  For post contact, please address me at:<br />
-  72 Binhai Road, Jimo, Qingdao, Shandong, P.R. China<br />
-  Postal Code: 266237
-</div>
