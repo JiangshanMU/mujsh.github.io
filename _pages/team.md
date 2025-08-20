@@ -7,14 +7,8 @@ permalink: /team/
 ---
 
 <div class="px-2 gx-2">
-<!--
-**We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
--->
-
 
 # About me
-
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -29,25 +23,32 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <!-- Card -->
 <div class="card mb-3 border-0" style="width: 100%">
-<div class="row g-0">
-<div class="col-md-4">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<h5 class="card-title">{{ member.name }}</h5>
-{% if member.title %}
-<h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
-{% endif %}
-{% if member.email %}
-<p class="card-text">email: <{{ member.email }}></p>
-{% endif %}
-{% if member.links %}
-<p class="card-text" style="width: 100%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
-{% endif %}
-</div>
-</div>
-</div>
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ member.name }}</h5>
+        {% if member.title %}
+        <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
+        {% endif %}
+        {% if member.email %}
+        <p class="card-text">email: <{{ member.email }}></p>
+        {% endif %}
+        {% if member.links %}
+        <p class="card-text" style="width: 100%">
+          <small>
+          {% for link in member.links %}
+            {{ link }}
+            {% unless forloop.last %} | {% endunless %}
+          {% endfor %}
+          </small>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </div>
 
 {% if member.bio %}
@@ -56,11 +57,12 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 {% if member.education %}
 <ul style="overflow: hidden">
-{% for edu_item in member.education %}
-<li> {{ edu_item }} </li>
-{% endfor %}
+  {% for edu_item in member.education %}
+    <li> {{ edu_item }} </li>
+  {% endfor %}
 </ul>
 {% endif %}
+
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
