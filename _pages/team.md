@@ -10,7 +10,7 @@ permalink: /team/
 
 <div class="row">
   <div class="col-md-4">
-    <img src="{{ site.baseurl }}/images/teampic/MJS2.png" class="img-fluid rounded-start" alt="Mu Jiangshan">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/MJS2.png" class="img-fluid rounded-start" alt="Mu Jiangshan">
   </div>
 
   <div class="col-md-8">
