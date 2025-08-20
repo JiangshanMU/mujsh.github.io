@@ -8,79 +8,116 @@ permalink: /team/
 
 # About me
 
+<style>
+/* 居中整个内容 */
+.row {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+/* 卡片整体排版优化 */
+.card.mb-3.border-0 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1.5rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+/* 头像样式 */
+.card .img-fluid {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* 姓名和职称样式 */
+.card-title {
+  margin-bottom: 0.25rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* 邮箱链接样式 */
+.card-text a {
+  color: #0645AD;
+  text-decoration: none;
+}
+.card-text a:hover {
+  text-decoration: underline;
+}
+
+/* Bio文字排版优化 */
+.card + p small {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  display: block;
+  margin: 1rem auto 0 auto;
+  max-width: 900px;
+  text-align: justify;
+}
+
+/* 教育经历样式 */
+.card + p + ul {
+  margin: 0.5rem auto 1rem auto;
+  max-width: 900px;
+  font-size: 1rem;
+  color: #444;
+  padding-left: 1.5rem;
+}
+</style>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
+<!-- Only one column layout for about me -->
 <div class="row">
-{% endif %}
+  <div class="col-sm-12 clearfix">
+    <div class="card mb-3 border-0">
+      <div class="col-md-4">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ member.name }}</h5>
+          {% if member.title %}
+          <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
+          {% endif %}
+          {% if member.email %}
+          <p class="card-text">email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+          {% endif %}
+          {% if member.links %}
+          <p class="card-text" style="width: 100%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
 
-<div class="col-sm-6 clearfix">
+    {% if member.bio %}
+    <p><small>{{ member.bio }}</small></p>
+    {% endif %}
 
-<!-- Card -->
-<div class="card mb-3 border-0" style="width: 100%">
-<div class="row g-0">
-<div class="col-md-4">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
+    {% if member.education %}
+    <ul>
+      {% for edu_item in member.education %}
+      <li>{{ edu_item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
 </div>
-<div class="col-md-8">
-<div class="card-body">
-<h5 class="card-title">{{ member.name }}</h5>
-{% if member.title %}
-<h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
-{% endif %}
-{% if member.email %}
-<p class="card-text">email: <{{ member.email }}></p>
-{% endif %}
-{% if member.links %}
-<p class="card-text" style="width: 100%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
-{% endif %}
-</div>
-</div>
-</div>
-</div>
-
-{% if member.bio %}
-<p style="width: 200%"><small>{{ member.bio }}</small></p>
-{% endif %}
-
-{% if member.education %}
-<ul style="overflow: hidden">
-{% for edu_item in member.education %}
-<li> {{ edu_item }} </li>
-{% endfor %}
-</ul>
-{% endif %}
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 
-
-
-<p style="width: 100%"><small>
-My name is Mu Jiangshan. I hold a Ph.D. in Atmospheric Environment from the Environmental Research Institute at Shandong University, where I was supervised by Professors Li-kun Xue and Yuqiang Zhang. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
-</small></p>
-
-<ul style="overflow: hidden">
-  <li>Ph.D. in Atmospheric Environment (2021–2025), Shandong University, Qingdao, China</li>
-  <li>Visiting Scholar (Jan–May 2024), Universidad Politécnica de Madrid, Spain</li>
-  <li>M.Sc. in Environmental Science (2018–2021), Shandong University, Qingdao, China</li>
-  <li>B.Sc. in Environmental Science (2014–2018), Ocean University of China, Qingdao, China</li>
-</ul>
 
 ## Contact
 
