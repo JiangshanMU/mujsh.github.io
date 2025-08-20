@@ -27,7 +27,7 @@ Journal publications
 {% for entry in year.Items %}
 <tr class="small">
 <td>
-
+{{ entry.Citation }}
 doi:<a href="https://doi.org/{{ entry.DOI }}">{{ entry.DOI }}</a>{% if entry.OA %}. <a href="{{ entry.OA }}">OA</a>{% endif %}.
 </td>
 <td style="text-align:right">
