@@ -1,24 +1,14 @@
 ---
-title: "Jiangshan :: About me"
+title: "About Me"
 layout: default
-excerpt: "Jiangshan -- About me"
-sitemap: false
 permalink: /team/
 ---
-
-<div class="px-2 gx-2">
-
-<!--
-**We are looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
--->
 
 # About me
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
   {% assign even_odd = number_printed | modulo: 2 %}
-
   {% if even_odd == 0 %}
   <div class="row">
   {% endif %}
@@ -37,7 +27,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
               <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
             {% endif %}
             {% if member.email %}
-              <p class="card-text">email: <{{ member.email }}></p>
+              <p class="card-text">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
             {% endif %}
             {% if member.links %}
               <p class="card-text" style="width: 100%">
@@ -91,14 +81,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
       referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </div>
-
-  My office is located in Shandong University (Qingdao Campus) <br />
-  Jimo, Qingdao, Shandong Province <br />
-  on the 3rd floor of K6-Ganchang Yuan.
-
-  *For post contact, please address me at* <br />
-  72 Binhai Road, Jimo, Qingdao, P.R. China <br />
-  Postal Code: 266237 <br />
-</div>
-
+  My office is located in Shandong University (Qingdao Campus)<br />
+  Jimo, Qingdao, Shandong Province, on the 3rd floor of K6-Ganchang Yuan.<br />
+  For post contact, please address me at:<br />
+  72 Binhai Road, Jimo, Qingdao, P.R. China<br />
+  Postal Code: 266237
 </div>
