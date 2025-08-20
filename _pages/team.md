@@ -8,7 +8,6 @@ permalink: /team/
 
 # About me
 
-# About me
 
 
 {% assign number_printed = 0 %}
