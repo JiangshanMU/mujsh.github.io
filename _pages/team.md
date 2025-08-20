@@ -8,28 +8,66 @@ permalink: /team/
 
 # About me
 
-<div class="row">
-  <div class="col-md-4">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/MJS2.png" class="img-fluid rounded-start" alt="Mu Jiangshan">
-  </div>
 
-  <div class="col-md-8">
-    <div class="card-body">
-      <h5 class="card-title">Mu Jiangshan</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Ph.D.</h6>
-      <p class="card-text">
-        Email: <a href="mailto:mujiangshan0615@gmail.com">mujiangshan0615@gmail.com</a>
-      </p>
-      <p class="card-text" style="width: 100%">
-        <small>
-          <a href="https://www.researchgate.net/profile/Jiangshan-Mu-2" target="_blank">ResearchGate</a> |
-          <a href="https://scholar.google.com/citations?hl=zh-CN&user=fmUpOswAAAAJ" target="_blank">Google Scholar</a> |
-          <a href="https://www.webofscience.com/wos/author/record/HPE-9830-2023" target="_blank">Publons</a>
-        </small>
-      </p>
-    </div>
-  </div>
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+
+<!-- Card -->
+<div class="card mb-3 border-0" style="width: 100%">
+<div class="row g-0">
+<div class="col-md-4">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
 </div>
+<div class="col-md-8">
+<div class="card-body">
+<h5 class="card-title">{{ member.name }}</h5>
+{% if member.title %}
+<h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
+{% endif %}
+{% if member.email %}
+<p class="card-text">email: <{{ member.email }}></p>
+{% endif %}
+{% if member.links %}
+<p class="card-text" style="width: 100%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
+{% endif %}
+</div>
+</div>
+</div>
+</div>
+
+{% if member.bio %}
+<p style="width: 200%"><small>{{ member.bio }}</small></p>
+{% endif %}
+
+{% if member.education %}
+<ul style="overflow: hidden">
+{% for edu_item in member.education %}
+<li> {{ edu_item }} </li>
+{% endfor %}
+</ul>
+{% endif %}
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 ---
 
