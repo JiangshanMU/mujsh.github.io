@@ -1,11 +1,11 @@
 - name: Mu Jiangshan
+  photo: MJS2.png
   title: Ph.D.
   email: mujiangshan0615@gmail.com
-  photo: MJS2.png
   links:
-    - "[ResearchGate](https://www.researchgate.net/profile/Jiangshan-Mu-2)"
-    - "[Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=fmUpOswAAAAJ)"
-    - "[Publons](https://www.webofscience.com/wos/author/record/HPE-9830-2023)"
+    - <a href="https://www.researchgate.net/profile/Jiangshan-Mu-2" target="_blank">ResearchGate</a>
+    - <a href="https://scholar.google.com/citations?hl=zh-CN&user=fmUpOswAAAAJ" target="_blank">Google Scholar</a>
+    - <a href="https://www.webofscience.com/wos/author/record/HPE-9830-2023" target="_blank">Publons</a>
   bio: >
     My name is Mu Jiangshan. I hold a Ph.D. in Atmospheric Environment from the Environmental Research Institute at Shandong University, where I was supervised by Professors Li-kun Xue and Yuqiang Zhang. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
   education:
