@@ -1,8 +1,14 @@
+- date: May 17, 2024
+  headline: "Returned to Beijing after academic exchange in Madrid"
+  body: |
+    On May 17, 2024, I concluded my four-month academic exchange at the Universidad Politécnica de Madrid and returned to Beijing.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/Madrid.jpg"
+
 - date: April 20, 2024
   headline: "Presented at EGU General Assembly 2024 in Vienna, Austria."
   body: |
     From April 14 to 20, 2024, I participated in the European Geosciences Union (EGU) General Assembly held in Vienna, Austria. During the conference, I delivered an oral presentation and presented a poster showcasing my recent research.
-  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/FLIGHT.jpg"
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/EGU.jpg"
 
 - date: January 28, 2024
   headline: "Flight from Beijing to Madrid."
@@ -86,7 +92,7 @@
     I attended a lecture on Artificial Intelligence and OpenAI at Shandong University Central Campus (Jinan).
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ai.jpg"
 
-- date: March 31-April 2, 2023
+- date: April 2, 2023
   headline: "The 4th Academic Forum on Biogeochemical Cycle of Nitrogen."
   body: |
     I participated in [the 4th Academic Forum on Biogeochemical Cycle of Nitrogen](https://www.ues.pku.edu.cn/xyxw/369444.htm) held at Peking University.
