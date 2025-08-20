@@ -8,69 +8,64 @@ permalink: /team/
 
 # About me
 
-
-
-{% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+<div class="card mb-4 border-0" style="max-width: 100%;">
+  <div class="row g-0">
 
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
+    <!-- Photo Left -->
+    <div class="col-md-4 d-flex align-items-center justify-content-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}" style="max-height: 300px;">
+    </div>
 
-<div class="col-sm-6 clearfix">
+    <!-- Info Right -->
+    <div class="col-md-8">
+      <div class="card-body">
 
-<!-- Card -->
-<div class="card mb-3 border-0" style="width: 100%">
-<div class="row g-0">
-<div class="col-md-4">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<h5 class="card-title">{{ member.name }}</h5>
-{% if member.title %}
-<h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
-{% endif %}
-{% if member.email %}
-<p class="card-text">email: <{{ member.email }}></p>
-{% endif %}
-{% if member.links %}
-<p class="card-text" style="width: 100%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
-{% endif %}
-</div>
-</div>
-</div>
-</div>
+        <!-- Education first -->
+        {% if member.education %}
+          <ul class="card-text" style="padding-left: 1.2em; margin-bottom: 1rem;">
+            {% for edu_item in member.education %}
+              <li style="margin-bottom: 0.3em;">{{ edu_item }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
 
-{% assign number_printed = number_printed | plus: 1 %}
+        <!-- Name & Title -->
+        <h5 class="card-title">{{ member.name }}</h5>
+        {% if member.title %}
+          <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
+        {% endif %}
 
-{% if even_odd == 1 %}
+        <!-- Email -->
+        {% if member.email %}
+          <p class="card-text">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+        {% endif %}
+
+        <!-- Links -->
+        {% if member.links %}
+          <p class="card-text">
+            <small>
+              {% for link in member.links %}
+                {{ link }}{% unless forloop.last %} | {% endunless %}
+              {% endfor %}
+            </small>
+          </p>
+        {% endif %}
+
+        <!-- Bio -->
+        {% if member.bio %}
+          <p class="card-text" style="text-align: justify;">{{ member.bio }}</p>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
 </div>
-{% endif %}
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-<p style="width: 100%"><small>
-My name is Mu Jiangshan. I hold a Ph.D. in Atmospheric Environment from the Environmental Research Institute at Shandong University, where I was supervised by Professors Li-kun Xue and Yuqiang Zhang. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
-</small></p>
-
-<ul style="overflow: hidden">
-  <li>Ph.D. in Atmospheric Environment (2021–2025), Shandong University, Qingdao, China</li>
-  <li>Visiting Scholar (Jan–May 2024), Universidad Politécnica de Madrid, Spain</li>
-  <li>M.Sc. in Environmental Science (2018–2021), Shandong University, Qingdao, China</li>
-  <li>B.Sc. in Environmental Science (2014–2018), Ocean University of China, Qingdao, China</li>
-</ul>
-
 ## Contact
-
 
 <p>
 My office is located in Shandong University (Qingdao Campus)<br />
