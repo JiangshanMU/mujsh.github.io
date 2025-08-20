@@ -18,12 +18,12 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-8 clearfix">
 
 <!-- Card -->
 <div class="card mb-3 border-0" style="width: 100%">
 <div class="row g-0">
-<div class="col-md-2">
+<div class="col-md-4">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
 </div>
 <div class="col-md-8">
