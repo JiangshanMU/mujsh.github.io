@@ -32,6 +32,13 @@ permalink: /team/
 {% if member.title %}
 <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
 {% endif %}
+{% if member.education %}
+ <ul class="mb-2" style="padding-left: 1rem; font-size: 0.9em;">
+   {% for edu_item in member.education %}
+   <li>{{ edu_item }}</li>
+   {% endfor %}
+</ul>
+{% endif %}
 {% if member.email %}
 <p class="card-text">email: <{{ member.email }}></p>
 {% endif %}
