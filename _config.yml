@@ -8,7 +8,7 @@ description: > # used for SEO/meta
 
 # GitHub Pages URLs
 # Your repo is jiangshanmu/mujsh.github.io → project site
-url: "https://jiangshanmu.github.io"
+url: "https://jiangshanmu.github.io" 
 baseurl: "/mujsh.github.io"
 
 include:
