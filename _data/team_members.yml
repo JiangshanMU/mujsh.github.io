@@ -1,21 +1,19 @@
 - name: Mu Jiangshan
   photo: MJS2.png
   email: mujiangshan0615@gmail.com
+  title: Ph.D.
   education:
-    - PhD.  (2021-2025 )    Shandong University (Qingdao, China)
-    - Visiting student.  (2024.1-2024.5 )    Universidad Politécnica de Madrid (Madrid, Spain)
-    - M.Sc. (2018-2021) Shandong University (Qingdao, China)
-    - B.Sc. (2014-2018) Ocean University of China (Qingdao, China)
-  title: Ph.D. 
+    - Ph.D. in Atmospheric Environment (2021–2025), Shandong University, Qingdao, China
+    - Visiting Scholar (Jan–May 2024), Universidad Politécnica de Madrid, Madrid, Spain
+    - M.Sc. in Environmental Science (2018–2021), Shandong University, Qingdao, China
+    - B.Sc. in Environmental Science (2014–2018), Ocean University of China, Qingdao, China
   bio: |
-      My name is Mu Jiangshan. I am Ph.D. specializing in Atmospheric Environment at the Environmental Research Institute, Shandong University, under the supervision of Professors Li-kun Xue and Yuqiang Zhang. My research centers on atmospheric photochemistry in the troposphere, with a particular focus on unraveling and modeling complex chemical processes. To this end, I integrate machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemical mechanisms.  
-      
-      Beyond my core research, I am deeply interested in three-dimensional atmospheric modeling. I believe that 3D modeling offers a powerful lens through which to explore and interpret the dynamic behavior of the atmosphere, ultimately improving our capacity to predict and respond to environmental changes.
-      
-      At the heart of my scientific pursuit is a commitment to leveraging interdisciplinary tools and insights to address pressing environmental challenges. I aspire to contribute meaningfully to atmospheric science and to help safeguard the Earth's fragile environment through rigorous, impactful research.
-      
+    My name is Mu Jiangshan. I hold a Ph.D. in Atmospheric Environment from the Environmental Research Institute at Shandong University, where I was supervised by Professors Li-kun Xue and Yuqiang Zhang. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry.
+
+    Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges.
+
+    I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
   links:
-    - '[Researchgate](https://www.researchgate.net/profile/Jiangshan-Mu-2)'
-    - '[Google Scolar](https://scholar.google.com/citations?hl=zh-CN&user=fmu5BbMAAAAJ)'
+    - '[ResearchGate](https://www.researchgate.net/profile/Jiangshan-Mu-2)'
+    - '[Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=fmu5BbMAAAAJ)'
     - '[Publons](https://www.webofscience.com/wos/author/record/HPE-9830-2023)'
-    
