@@ -84,6 +84,6 @@ permalink: /team/
   My office is located in Shandong University (Qingdao Campus)<br />
   Jimo, Qingdao, Shandong Province, on the 3rd floor of K6-Ganchang Yuan.<br />
   For post contact, please address me at:<br />
-  72 Binhai Road, Jimo, Qingdao, P.R. China<br />
+  72 Binhai Road, Jimo, Qingdao, Shandong, P.R. China<br />
   Postal Code: 266237
 </div>
