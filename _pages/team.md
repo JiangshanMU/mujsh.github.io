@@ -18,7 +18,7 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-8 clearfix">
+<div class="col-sm-10 clearfix">
 
 <!-- Card -->
 <div class="card mb-3 border-0" style="width: 100%">
@@ -26,7 +26,7 @@ permalink: /team/
 <div class="col-md-4">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
 </div>
-<div class="col-md-12">
+<div class="col-md-10">
 <div class="card-body">
 <h5 class="card-title">{{ member.name }}</h5>
 {% if member.title %}
