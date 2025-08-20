@@ -26,7 +26,7 @@ permalink: /team/
 <div class="col-md-4">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
 </div>
-<div class="col-md-8">
+<div class="col-md-12">
 <div class="card-body">
 <h5 class="card-title">{{ member.name }}</h5>
 {% if member.title %}
@@ -50,17 +50,7 @@ permalink: /team/
 </div>
 </div>
 
-{% if member.bio %}
-<p style="width: 200%"><small>{{ member.bio }}</small></p>
-{% endif %}
 
-{% if member.education %}
-<ul style="overflow: hidden">
-{% for edu_item in member.education %}
-<li> {{ edu_item }} </li>
-{% endfor %}
-</ul>
-{% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
