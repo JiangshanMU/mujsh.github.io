@@ -1,5 +1,17 @@
 - Year: 2023
   Items:
+  - Citations: 14
+    DOI: 10.1016/j.envpol.2023.122612
+    Year: 2023
+    Citation: |-
+      Li, T., … <b>Mu, J.</b>, … (2023). Characteristics of secondary inorganic aerosols and contributions to PM2.5 pollution based on machine learning approach in Shandong Province.
+      <i>Environment Pollution</i> <b>(6)</b>.
+  - Citations: 3
+    DOI: 10.1021/acs.est.3c04629
+    Year: 2023
+    Citation: |-
+      Zhang, Y., … <b>Mu, J.</b>, … (2023). Double-Edged Role of VOCs Reduction in Nitrate Formation: Insights from Observations during the China International Import Expo 2018.
+      <i>Environmental Science & Technology</i> <b>(7)</b>.    
   - Citations: 22
     DOI: 10.1016/j.atmosenv.2023.119917
     Year: 2023
@@ -67,10 +79,15 @@
     Citation: >-
       Zhang, Y., … <b>Mu, J.</b>, … (2021). Source apportionment of regional ozone pollution observed at Mount Tai, North China: Application of Lagrangian photochemical trajectory model and implications for control policy.
       <i>Journal of Geophysical Research: Atmospheres</i> <b>(5)</b>.
+  - Citations: 41
+    DOI: 10.1016/j.chemosphere.2020.126256
+    Year: 2020
+    Citation: >-
+      Liang, Y., … <b>Mu, J.</b>, … (2020). Size distributions of nitrated phenols in winter at a coastal site in north China and the impacts from primary sources and secondary formation.
+      <i>Chemosphere</i> <b>(5)</b>.
   - Citations: 29
     DOI: 10.3390/atmos11020212
     Year: 2020
     Citation: >-
       Li, H., … <b>Mu, J.</b>, … (2020). Evaluation of the performance of low-cost air quality sensors at a high mountain station with complex meteorological conditions.
-      <i>Atmospheres</i> <b>(8)</b>.
- 
+      <i>Atmospheres</i> <b>(8)</b>. 
