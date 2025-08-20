@@ -12,7 +12,7 @@ permalink: /team/
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+{% assign even_odd = number_printed | modulo: 1 %}
 
 {% if even_odd == 0 %}
 <div class="row">
