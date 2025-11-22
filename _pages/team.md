@@ -66,16 +66,14 @@ permalink: /team/
 </div>
 {% endif %}
 <p style="width: 100%"><small>
-My name is Mu Jiangshan. I hold a Ph.D. in Atmospheric Environment from the Environmental Research Institute at Shandong University, where I was supervised by Professors Li-kun Xue and Yuqiang Zhang. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
+My name is Mu Jiangshan. I am Postdoctoral Fellow in Drew Shindell's Lab at Duke University. I hold a Ph.D. in Atmospheric Environment from the Environment Research Institute at Shandong University. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
 </small></p>
 
 
 ## Contact
 
 <p>
-My office is located in Shandong University (Qingdao Campus)<br />
-Jimo, Qingdao, Shandong Province, on the 3rd floor of K6-Ganchang Yuan.<br />
-For post contact, please address me at:<br />
-72 Binhai Road, Jimo, Qingdao, P.R. China<br />
-Postal Code: 266237
+My office is located in Nicholas School of the Environment, Duke University<br />
+Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708.<br />
+Office: LSRCA152
 </p>
