@@ -8,7 +8,7 @@ permalink: /publications/
 
 # Scientific outputs
 
-Below is a list of my publications, showing my authorship in parentheses and citation numbers (if available) from Google Scholar as of August, 2025.
+Below is a list of my publications.
   
 <div class="accordion accordion-flush" id="accordionPublications">
 <div class="accordion-item">
