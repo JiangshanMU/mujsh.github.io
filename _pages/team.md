@@ -33,6 +33,10 @@ permalink: /aboutme/
 <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
 {% endif %}
 {% if member.experience %}
+ <h6 class="mt-2 mb-1 text-uppercase"
+    style="font-size: 0.85em; letter-spacing: 0.05em;">
+  Experience
+ </h6>
  <ul class="mb-2" style="padding-left: 1rem; font-size: 0.9em; list-style-type: disc;">
    {% for exp_item in member.experience %}
    <li>{{ exp_item }}</li>
