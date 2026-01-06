@@ -29,9 +29,6 @@ Journal publications
 {{ entry.Citation }}
 doi:<a href="https://doi.org/{{ entry.DOI }}">{{ entry.DOI }}</a>{% if entry.OA %}. <a href="{{ entry.OA }}">OA</a>{% endif %}.
 </td>
-<td style="text-align:right">
-{{ entry.Citations }}
-</td>
 </tr>
 {% endfor %}
 </tbody>
@@ -57,9 +54,6 @@ Conference communications
 <tr class="small">
 <td>
 {{ entry.Citation }}
-</td>
-<td style="text-align:right">
-n/a
 </td>
 </tr>
 {% endfor %}
