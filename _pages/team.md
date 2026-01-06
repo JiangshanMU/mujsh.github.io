@@ -20,31 +20,47 @@ permalink: /aboutme/
 
 <div class="col-sm-10 clearfix">
 
-<!-- Card -->
 <div class="card mb-3 border-0" style="width: 100%">
-<div class="row g-0">
-<div class="col-md-2">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
+  <div class="row g-0">
+    <div class="col-md-2">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <h5 class="card-title">{{ member.name }}</h5>
+        {% if member.title %}
+        <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
+        {% endif %}
+
+        {% if member.experience %}
+        <div style="font-weight: 600; font-size: 0.9em; margin-top: 10px; color: #333;">Experience</div>
+        <ul class="mb-2" style="padding-left: 1.2rem; font-size: 0.9em; list-style-type: disc;">
+          {% for exp_item in member.experience %}
+          <li>{{ exp_item }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if member.education %}
+        <div style="font-weight: 600; font-size: 0.9em; margin-top: 10px; color: #333;">Education</div>
+        <ul class="mb-2" style="padding-left: 1.2rem; font-size: 0.9em; list-style-type: disc;">
+          {% for edu_item in member.education %}
+          <li>{{ edu_item }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if member.email %}
+        <p class="card-text">email: <{{ member.email }}></p>
+        {% endif %}
+        
+        {% if member.links %}
+        <p class="card-text" style="width: 100%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </div>
-<div class="col-md-10">
-<div class="card-body">
-<h5 class="card-title">{{ member.name }}</h5>
-{% if member.title %}
-<h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
-{% endif %}
-{% if member.experience %}
- <ul class="mb-2" style="padding-left: 1rem; font-size: 0.9em; list-style-type: disc;">
-   {% for exp_item in member.experience %}
-   <li>{{ exp_item }}</li>
-   {% endfor %}
- </ul>
-{% endif %}
-{% if member.education %}
- <ul class="mb-2" style="padding-left: 1rem; font-size: 0.9em;">
-   {% for edu_item in member.education %}
-   <li>{{ edu_item }}</li>
-   {% endfor %}
-</ul>
 {% endif %}
 {% if member.email %}
 <p class="card-text">email: <{{ member.email }}></p>
