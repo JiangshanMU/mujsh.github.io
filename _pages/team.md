@@ -1,9 +1,9 @@
 ---
 title: "About me"
 layout: default
-excerpt: "Mu Jiangshan - About me"
+excerpt: "Jiangshan Mu - About me"
 sitemap: false
-permalink: /team/
+permalink: /aboutme/
 ---
 
 # About me
@@ -66,7 +66,7 @@ permalink: /team/
 </div>
 {% endif %}
 <p style="width: 100%"><small>
-My name is Mu Jiangshan. I am Postdoctoral Fellow in Drew Shindell's Lab at Duke University. I hold a Ph.D. in Atmospheric Environment from the Environment Research Institute at Shandong University. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
+My name is Jiangshan Mu. I am Postdoctoral Fellow in Drew Shindell's Lab at Duke University. I hold a Ph.D. in Atmospheric Environment from the Environment Research Institute at Shandong University. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
 </small></p>
 
 
