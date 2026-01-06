@@ -33,7 +33,7 @@ permalink: /aboutme/
 <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
 {% endif %}
 {% if member.experience %}
- <h6 class="mt-2 mb-1 text-uppercase"
+ <h6 class="mt-2 mb-1 text-uppercase fw-bold"
     style="font-size: 0.85em; letter-spacing: 0.05em;">
   Experience
  </h6>
