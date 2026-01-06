@@ -44,6 +44,10 @@ permalink: /aboutme/
  </ul>
 {% endif %}
 {% if member.education %}
+ <h6 class="mt-2 mb-1 text-uppercase fw-bold"
+    style="font-size: 0.85em; letter-spacing: 0.05em;">
+  Education
+ </h6>
  <ul class="mb-2" style="padding-left: 1rem; font-size: 0.9em;">
    {% for edu_item in member.education %}
    <li>{{ edu_item }}</li>
