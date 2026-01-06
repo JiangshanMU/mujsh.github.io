@@ -25,9 +25,11 @@ permalink: /aboutme/
     <div class="col-md-2">
       <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
     </div>
+    
     <div class="col-md-10">
       <div class="card-body">
         <h5 class="card-title">{{ member.name }}</h5>
+        
         {% if member.title %}
         <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
         {% endif %}
@@ -51,11 +53,15 @@ permalink: /aboutme/
         {% endif %}
 
         {% if member.email %}
-        <p class="card-text">email: <{{ member.email }}></p>
+        <p class="card-text" style="margin-top: 10px; font-size: 0.9em;">Email: {{ member.email }}</p>
         {% endif %}
         
         {% if member.links %}
-        <p class="card-text" style="width: 100%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
+        <p class="card-text" style="width: 100%"><small>
+          {% for link in member.links %}
+            {{ link }}{% unless forloop.last %} | {% endunless %}
+          {% endfor %}
+        </small></p>
         {% endif %}
       </div>
     </div>
