@@ -1,7 +1,21 @@
+- date: January 1, 2026
+  headline: "Happy New Year!"
+  body: |
+    Say goodbye to 2025, welcome to 2026.
+- date: December 14, 2025
+  headline: "Attended AGU2025 in New Orleans"
+  body: |
+    From 14 to 19 Dec., I traveled to New Orleans to participate in AGU2025.
+  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/AGU2025.jpg"
+  
 - date: October 24, 2025
   headline: "Start my postdoctoral assistant at Duke University"
   body: |
     I flew from Beijing to Durham, US, and started my postdoctoral period at Duke University.
+- date: September 21, 2025
+  headline: "Attended the ABaCAS2025 in Huzhou"
+  body: |
+    On September 21–22, I traveled to Huzhou with Prof. Yuqiang Zhang and Bin Luo to participate in the ABaCAS2025.    
 - date: August 15, 2025
   headline: "Attended the China Environmental Science Youth Forum in Changsha"
   body: |
