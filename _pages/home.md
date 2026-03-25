@@ -23,17 +23,13 @@ permalink: /
 </div>
 </div>
 
-Hello, my name is **Jiangshan Mu**, and I am currently a postdoctoral researcher in [Prof. Drew Shindell](https://nicholas.duke.edu/people/faculty/shindell) Lab at [Nicholas School of the Environment](https://nicholas.duke.edu), Duke University, Durham. I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University in **June 2025**. I was co-advised by [Prof. Likun Xue](https://faculty.sdu.edu.cn/xuelikun/zh_CN/index.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm).
+Hello, my name is **Jiangshan Mu**, and I am currently a postdoctoral researcher in [Prof. Drew Shindell](https://nicholas.duke.edu/people/faculty/shindell) Lab at [Nicholas School of the Environment](https://nicholas.duke.edu), Duke University, Durham. I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), Shandong University in **June 2025**. I was co-advised by [Prof. Likun Xue](https://faculty.sdu.edu.cn/xuelikun/zh_CN/index.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm).  From January to May 2024, I conducted collaborative research as a visiting scholar at the **Universidad Politécnica de Madrid**
 
 My research focuses on the interactions between atmospheric composition and environmental health. I am particularly interested in:
 
 - **Global inequalities in pollutant exposure and health impacts**
 - **Atmospheric data reconstruction using machine learning**
 - **Urbanization and environmental justice**
-
-I have developed **high-resolution NO₂ datasets (2005–2023)** using Transformer-based models and analyzed disparities in exposure across countries and income levels. I also explore how **extreme events** such as wildfires affect atmospheric nitrogen deposition using machine learning and atmospheric models.
-
-During my doctoral training, I participated in several field campaigns, including **high-altitude mountain observations** and **aircraft-based measurements**. From January to May 2024, I conducted collaborative research as a visiting scholar at the **Universidad Politécnica de Madrid**, focusing on machine learning applications in extreme event attribution.
 
 I am deeply inspired by the pursuit of science. It is a journey of exploring the unknown, requiring persistence, curiosity, and humility. The most poetic and meaningful life I can imagine is one spent seeking truth.
 
