@@ -1,7 +1,9 @@
 - name: Jiangshan Mu
   photo: MJS2.png
   title: Ph.D.
-  email: mujiangshan0615@gmail.com
+  email:
+    - mujiangshan0615@gmail.com
+    - jiangshan.mu@duke.edu
   links:
     - <a href="https://www.researchgate.net/profile/Jiangshan-Mu-2" target="_blank">ResearchGate</a>
     - <a href="https://scholar.google.com/citations?hl=zh-CN&user=fmu5BbMAAAAJ" target="_blank">Google Scholar</a>
