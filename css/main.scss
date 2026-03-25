@@ -55,7 +55,11 @@
 //   margin-left: auto;
 //   max-width: 1000px; /* or 950px */
 // }
-
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 1200px;   /* 关键 */
+}
 // /* Home, News */
 #newsid p {
 	text-align: left;
