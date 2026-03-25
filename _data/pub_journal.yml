@@ -1,10 +1,22 @@
 - Year: 2026
   Items:
   - Citations: 0
+    DOI: 10.1021/acs.est.5c17006
+    Year: 2026
+    Citation: |-
+      <b>Mu, J.</b>, … (2026). Explainable Machine Learning for High-Resolution Modeling of Long-Term Atmospheric Nitrogen and Sulfur Wet Deposition across the United States.
+      <i>Environmental Science & Technology</i> <b>(1)</b>.   
+  - Citations: 0
+    DOI: 10.1021/acsestair.4c00335
+    Year: 2026
+    Citation: |-
+      Sui, H., … <b>Mu, J.</b>, … (2026). Isotope-Based Tracing of Atmospheric Reactive Nitrogen: Progress and Prospects.
+      <i>ACS ES&T Air</i> <b>(5)</b>.   
+  - Citations: 0
     DOI: 10.1088/1748-9326/ae2e16
     Year: 2026
     Citation: |-
-      Ji, X., … <b>Mu, J.</b>, … (2025). Boosting solar efficiency: the unforeseen benefit of China’s clean air action plan.
+      Ji, X., … <b>Mu, J.</b>, … (2026). Boosting solar efficiency: the unforeseen benefit of China’s clean air action plan.
       <i>Environmental Research Letters</i> <b>(3)</b>.   
 - Year: 2025
   Items:      
