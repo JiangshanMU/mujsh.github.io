@@ -55,7 +55,12 @@ permalink: /aboutme/
 </ul>
 {% endif %}
 {% if member.email %}
-<p class="card-text">email: <{{ member.email }}></p>
+<p class="card-text">
+email:
+{% for mail in member.email %}
+  <{{ mail }}>{% unless forloop.last %} | {% endunless %}
+{% endfor %}
+</p>
 {% endif %}
 {% if member.links %}
 <p class="card-text" style="width: 100%"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
