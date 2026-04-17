@@ -15,7 +15,7 @@ My recent work includes the construction of high-resolution long-term NO₂ data
 I develop long-term, high-resolution NO₂ datasets by integrating satellite observations, model simulations, and advanced deep learning frameworks. This work aims to improve the spatial and temporal continuity of surface NO₂ estimates, enabling robust assessments of long-term trends, population exposure, and inequality at global scales.
 
 <p align="center">
-  <img src="{{ '/images/AITNO2.jpg' | relative_url }}" alt="Research image 2" width="520">
+  <img src="{{ '/images/AITNO2.png' | relative_url }}" alt="Research image 2" width="520">
 </p>
 
 ## Topic 2: Nitrogen Deposition Across the United States
@@ -23,7 +23,7 @@ I develop long-term, high-resolution NO₂ datasets by integrating satellite obs
 I investigate the spatiotemporal patterns and drivers of wet nitrogen deposition across the contiguous United States. By combining nationwide observations with meteorological, emissions, and land-use data, I use machine learning and interpretability analyses to quantify how precursor emissions, climate variability, and surface conditions shape nitrogen deposition trends.
 
 <p align="center">
-  <img src="{{ '/images/ndep.jpg' | relative_url }}" alt="Research image 3" width="520">
+  <img src="{{ '/images/GA.png' | relative_url }}" alt="Research image 3" width="520">
 </p>
 
 ## Topic 3: VOC Observations and Ozone Formation in Urban and Industrial Atmospheres
