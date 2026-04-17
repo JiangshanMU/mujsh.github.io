@@ -1,25 +1,48 @@
 ---
-title: "AxonLab :: Research"
-layout: textlay
-excerpt: "AxonLab -- Research"
-sitemap: false
+layout: page
+title: "Research"
 permalink: /research/
 ---
 
 # Research
 
-Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
+My research focuses on atmospheric chemistry, air pollution, climate interactions, and data-driven environmental analysis. I combine observations, satellite products, chemical transport models, and machine learning methods to understand the spatiotemporal variability of atmospheric composition and its environmental and health implications.
 
-Questions of interest include: (i), How does the Mott state collapse upon doping and how is this related to the complex phase diagram of high-temperature superconductors? (ii), What is the strange metal phase seen in correlated electron systems? Is this an exotic long-range entangled state? What is the mechanism of dissipation in that state? (iii), Why is the transition temperature in high-temperature superconductors so high? 
- 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/layers_real.jpg){: style="width: 300px; float: right; border: 10px"}
+<p align="center">
+  <img src="{{ '/images/AGU2025.jpg' | relative_url }}" alt="Research image 1" width="520">
+</p>
 
-Currently, our instrument of choice  is SI-STM.  State-of-the-art SI-STM measures an array of tunneling spectra on a given sample, registered to the atomic sites with picometer precision. Each is proportional to the local density of states at a given location. Ideally, the recorded spectra are so tightly packed that the measurement yields a three-dimensional mapping of the local density of states as a function of locations and energy. This is shown on the image on the right-hand side (10x10 nm2), and its Fourier transform, below.
+My recent work includes the construction of high-resolution long-term NO₂ datasets, analyses of population exposure and inequality, investigation of ozone variability and emission impacts, and interpretation of atmospheric processes using explainable machine learning frameworks.
 
-The quantum materials which we will investigate encapsulate some of the great unsolved mysteries of physics. They include high-temperature superconductors, quantum-critical compounds, graphene, and topological electronic matter that can be used for error-resistant quantum computing.
+## Topic 1: Air Pollution and Population Exposure
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/layers_fft.jpg){: style="width: 300px; float: left; border: 10px"}
+I develop long-term, high-resolution atmospheric composition datasets to quantify changes in pollutant concentrations, human exposure, and environmental inequality. This work integrates satellite observations, model simulations, and machine learning approaches to improve spatial coverage and temporal continuity.
 
-A main goal is to use modern technology to build the new instrumentation needed to understand these quantum materials. I learned my trade in [Seamus Davis’ SI-STM lab](http://davisgroup.lassp.cornell.edu/) and with [Felix Baumberger](http://dpmc.unige.ch/gr_baumberger/index.html), and later moved as an [ETH fellow](http://www.ethfellows.ethz.ch/) to [Andreas Wallraff’s qudev lab](http://www.qudev.ethz.ch/) where we investigated coupled cavity arrays in circuit QED. This allowed me to learn new techniques such as high frequency measurements, low temperature noise-free amplification, and quantum-limited measurements. The goal is to combine these with SI-STM.
+<p align="center">
+  <img src="{{ '/images/NatureConference.jpg' | relative_url }}" alt="Research image 2" width="520">
+</p>
 
-This will enable the instrumental capabilities to visualize the different quantum mechanical degrees of freedom needed to understand next-generation quantum materials. STM will be the main method, but we use different spectroscopic-imaging techniques to visualize not only the topography, but also the density of states, spins, and other degrees of freedom hidden below the surface.
+## Topic 2: Ozone and Atmospheric Chemistry
+
+I study the sources, drivers, and long-term trends of tropospheric pollutants such as ozone, NO₂, VOCs, and PM₂.₅ using observations and models. A major goal is to separate the roles of emissions, meteorology, and chemistry in shaping regional air quality.
+
+## Topic 3: Explainable Machine Learning in Environmental Science
+
+I use machine learning as a quantitative tool to reconstruct atmospheric variables, classify events, and interpret key drivers of environmental change. Methods such as XGBoost, Transformer-based models, and SHAP analysis are applied to improve both predictive performance and physical interpretability.
+
+<p align="center">
+  <img src="{{ '/images/Madrid.jpg' | relative_url }}" alt="Research image 3" width="520">
+</p>
+
+## Topic 4: Field Observations and Process Understanding
+
+I also work with field measurements and campaign observations to investigate atmospheric nitrogen chemistry, particle formation, and multiphase processes. These analyses help connect large-scale patterns with process-level understanding.
+
+## Ongoing Interests
+
+My current interests include:
+- long-term NO₂ and ozone variability
+- atmospheric nitrogen chemistry
+- explainable machine learning for environmental datasets
+- air pollution exposure and inequality
+- interactions among emissions, meteorology, and atmospheric composition
