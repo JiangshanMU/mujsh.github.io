@@ -4,45 +4,38 @@ title: "Research"
 permalink: /research/
 ---
 
-# Research
 
 My research focuses on atmospheric chemistry, air pollution, climate interactions, and data-driven environmental analysis. I combine observations, satellite products, chemical transport models, and machine learning methods to understand the spatiotemporal variability of atmospheric composition and its environmental and health implications.
 
-<p align="center">
-  <img src="{{ '/images/AGU2025.jpg' | relative_url }}" alt="Research image 1" width="520">
-</p>
 
 My recent work includes the construction of high-resolution long-term NO₂ datasets, analyses of population exposure and inequality, investigation of ozone variability and emission impacts, and interpretation of atmospheric processes using explainable machine learning frameworks.
 
-## Topic 1: Air Pollution and Population Exposure
+## Topic 1: Global High-Resolution NO₂ Dataset Construction
 
-I develop long-term, high-resolution atmospheric composition datasets to quantify changes in pollutant concentrations, human exposure, and environmental inequality. This work integrates satellite observations, model simulations, and machine learning approaches to improve spatial coverage and temporal continuity.
-
-<p align="center">
-  <img src="{{ '/images/NatureConference.jpg' | relative_url }}" alt="Research image 2" width="520">
-</p>
-
-## Topic 2: Ozone and Atmospheric Chemistry
-
-I study the sources, drivers, and long-term trends of tropospheric pollutants such as ozone, NO₂, VOCs, and PM₂.₅ using observations and models. A major goal is to separate the roles of emissions, meteorology, and chemistry in shaping regional air quality.
-
-## Topic 3: Explainable Machine Learning in Environmental Science
-
-I use machine learning as a quantitative tool to reconstruct atmospheric variables, classify events, and interpret key drivers of environmental change. Methods such as XGBoost, Transformer-based models, and SHAP analysis are applied to improve both predictive performance and physical interpretability.
+I develop long-term, high-resolution NO₂ datasets by integrating satellite observations, model simulations, and advanced deep learning frameworks. This work aims to improve the spatial and temporal continuity of surface NO₂ estimates, enabling robust assessments of long-term trends, population exposure, and inequality at global scales.
 
 <p align="center">
-  <img src="{{ '/images/Madrid.jpg' | relative_url }}" alt="Research image 3" width="520">
+  <img src="{{ '/images/AITNO2.jpg' | relative_url }}" alt="Research image 2" width="520">
 </p>
 
-## Topic 4: Field Observations and Process Understanding
+## Topic 2: Nitrogen Deposition Across the United States
 
-I also work with field measurements and campaign observations to investigate atmospheric nitrogen chemistry, particle formation, and multiphase processes. These analyses help connect large-scale patterns with process-level understanding.
+I investigate the spatiotemporal patterns and drivers of wet nitrogen deposition across the contiguous United States. By combining nationwide observations with meteorological, emissions, and land-use data, I use machine learning and interpretability analyses to quantify how precursor emissions, climate variability, and surface conditions shape nitrogen deposition trends.
+
+<p align="center">
+  <img src="{{ '/images/ndep.jpg' | relative_url }}" alt="Research image 3" width="520">
+</p>
+
+## Topic 3: VOC Observations and Ozone Formation in Urban and Industrial Atmospheres
+
+I study the characteristics, sources, and atmospheric effects of volatile organic compounds (VOCs) using long-term field observations and observation-based modeling. My work examines how petrochemical emissions reshape VOC composition, enhance atmospheric reactivity, and alter ozone formation regimes across urban, background, and industrial environments.
+
 
 ## Ongoing Interests
 
 My current interests include:
-- long-term NO₂ and ozone variability
-- atmospheric nitrogen chemistry
+- extreme climate and climate-related risks
+- wildfires and other high-impact extreme events
 - explainable machine learning for environmental datasets
 - air pollution exposure and inequality
 - interactions among emissions, meteorology, and atmospheric composition
