@@ -94,7 +94,11 @@ email:
 </div>
 {% endif %}
 <p style="width: 100%"><small>
-My name is Jiangshan Mu. I am Postdoctoral Fellow in Drew Shindell's Lab at Duke University. I hold a Ph.D. in Atmospheric Environment from the Environment Research Institute at Shandong University. My research focuses on atmospheric photochemistry in the troposphere, particularly on elucidating and modeling complex chemical processes. I apply a multidisciplinary approach that integrates machine learning, box modeling, and comprehensive field observations to advance our understanding of atmospheric chemistry. Beyond my core research, I have a strong interest in three-dimensional atmospheric modeling, which I believe offers a powerful framework for capturing the dynamic behavior of the atmosphere and enhancing our predictive capabilities in the face of environmental challenges. I am committed to using interdisciplinary tools and scientific insight to address pressing environmental problems. My goal is to contribute meaningfully to atmospheric science and support the protection of Earth’s fragile environment through rigorous, impactful research.
+My name is Jiangshan Mu. I am a Postdoctoral Fellow in Drew Shindell’s Lab at Duke University. I received my Ph.D. in Atmospheric Environment from the Institute of Environmental Research at Shandong University.
+
+My research focuses on the spatiotemporal variability, sources, and impacts of tropospheric air pollutants, with particular emphasis on atmospheric photochemistry, air pollution, and climate interactions. I combine field observations, satellite products, chemical transport models, and data-driven methods to investigate atmospheric composition and the processes that shape it. My recent work includes the development of high-resolution long-term pollutant datasets, analyses of population exposure and inequality, and the interpretation of atmospheric processes using explainable machine learning frameworks.
+
+I am also interested in three-dimensional atmospheric modeling as a tool for understanding the dynamic behavior of the atmosphere and for improving the quantification of emissions, chemistry, and transport. More broadly, I aim to use interdisciplinary approaches to address important environmental questions and to advance rigorous, impactful research in atmospheric science.
 </small></p>
 
 
