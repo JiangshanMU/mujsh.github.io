@@ -28,7 +28,15 @@ permalink: /aboutme/
 </div>
 <div class="col-md-10">
 <div class="card-body">
-<h5 class="card-title">{{ member.name }}</h5>
+<h5 class="card-title">
+  {{ member.name }}
+  <a href="{{ '/downloads/CV_Jm.pdf' | relative_url }}" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     style="font-size: 0.8em; margin-left: 0.5rem;">
+    Download CV
+  </a>
+</h5>
 {% if member.title %}
 <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
 {% endif %}
