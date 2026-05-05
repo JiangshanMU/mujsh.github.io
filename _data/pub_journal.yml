@@ -1,6 +1,12 @@
 - Year: 2026
   Items:
   - Citations: 0
+    DOI: doi.org/10.5194/essd-18-2999-2026
+    Year: 2026
+    Citation: |-
+      <b>Mu, J.</b>, Tao, C. … (2026). Improved global daily nitrogen dioxide concentrations from 2005 to 2023 derived using a deep learning approach.
+      <i>Earth System Science Data</i> <b>(1)</b>.   
+  - Citations: 0
     DOI: 10.1021/acs.est.5c17006
     Year: 2026
     Citation: |-
