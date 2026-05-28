@@ -34,5 +34,5 @@ The page is arranged so that the sequence increases from bottom to top: `photo_0
 
 <div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_01.jpg" alt="Photo 01" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
-  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">GAC Group in Qingdao, Jan. 7, 2020.</p>
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">GAC Group in Qingdao, January 7, 2020.<br>Front row, from left to right: Yue Sun, Juan Li, Juan Yang, Feng Zhao, Yingnan Zhang, Rongrong Gu, Yuhong Liu, Ying Jiang, Min Zhao, and Ye Shan.<br>Back row, from left to right: Yujiao Zhu, Hongyong Li, Can Dong, Hengqing Shen, Likun Xue, Lei Sun, Jiangshan Mu, Chuan Yu, and Jintian Xue.</p>
 </div>
