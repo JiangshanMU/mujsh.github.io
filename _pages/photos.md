@@ -19,12 +19,12 @@ The page is arranged so that the sequence increases from bottom to top: `photo_0
 
 <div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_04.png" alt="Photo 04" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
-  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Description for photo 04. Replace this sentence with the location, event, or short context.</p>
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, June 25, 2021.<br>From left to right: Tianshu Chen, Zhiyi Liu, Min Li, Juan Yang, Yuhong Liu, Xinfeng Wang, Likun Xue, Jiangshan Mu, and Yingnan Zhang.</p>
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_03.png" alt="Photo 03" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
-  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Description for photo 03. Replace this sentence with the location, event, or short context.</p>
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, January 3, 2021.<br>Front row, from left to right: Xi Lian, Yujiao Zhu, Rongrong Gu, Yuhong Liu, Yingnan Zhang, Feng Zhao, Yue Sun, Min Zhao, and Juan Yang.<br>Back row, from left to right: Hengqing Shen, Likun Xue, Chuan Yu, Jiangshan Mu, Ji Zhang, Hongyong Li, and Ye Shan.</p>
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
