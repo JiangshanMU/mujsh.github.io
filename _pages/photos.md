@@ -13,6 +13,16 @@ This page collects selected photos from fieldwork, conferences, academic visits,
 The page is arranged so that the sequence increases from bottom to top: `photo_01.jpg` is at the bottom, followed by `photo_02.jpg`, `photo_03.jpg`, and so on upward.
 
 <div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_15.jpg" alt="Photo 15" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Heshan, Qingdao, May 25, 2024.<br>First row, from left to right: Zhuyi Wang, Min Zhao, Yue Sun, Xuanying Ji, Ping Liu, Yuhong Liu, Can Cui, and Bin Luo.<br>Second row, from left to right: Zizhen Han, Yanqiu Nie, Hanyuan Zhang, Jiangshan Mu, Likun Xue, Yuqiang Zhang, and Zhou Liu.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_14.jpg" alt="Photo 14" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Zhang's Group in Beijing, May 23, 2024.<br>From left to right: Zhou Liu, Jiangshan Mu, Drew Shindell, Yuqiang Zhang, Bin Luo, and Zhuyi Wang.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_13.jpg" alt="Photo 13" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, January 20, 2024.<br>First row, from left to right: Jiangshan Mu, Bin Luo, Ping Liu, Xuanying Ji, Qingqing Liu, Can Cui, Zizhen Han, and Xuelian Zhong.<br>Second row, from left to right: Zhou Liu, Hanyuan Zhang, Yuhong Liu, Min Zhao, Yue Sun, Yanqiu Nie, Yu Yang, Zhuyi Wang, Lin Li, and Xi Lian.<br>Third row, from left to right: Jinghao Tang, Liubin Huang, Qinyi Li, Likun Xue, Yuqiang Zhang, Zongzheng, Yujiao Zhu, Na Zhao, and Jingjing Ma.</p>
 </div>
