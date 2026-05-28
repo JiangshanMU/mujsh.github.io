@@ -13,6 +13,11 @@ This page collects selected photos from fieldwork, conferences, academic visits,
 The page is arranged so that the sequence increases from bottom to top: `photo_01.jpg` is at the bottom, followed by `photo_02.jpg`, `photo_03.jpg`, and so on upward.
 
 <div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_13.jpg" alt="Photo 13" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, January 20, 2024.<br>First row, from left to right: Jiangshan Mu, Bin Luo, Ping Liu, Xuanying Ji, Qingqing Liu, Can Cui, Zizhen Han, and Xuelian Zhong.<br>Second row, from left to right: Zhou Liu, Hanyuan Zhang, Yuhong Liu, Min Zhao, Yue Sun, Yanqiu Nie, Yu Yang, Zhuyi Wang, Lin Li, and Xi Lian.<br>Third row, from left to right: Jinghao Tang, Liubin Huang, Qinyi Li, Likun Xue, Yuqiang Zhang, Zongzheng, Yujiao Zhu, Na Zhao, and Jingjing Ma.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_12.jpg" alt="Photo 12" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Zhang's Group in Qingdao, September 17, 2023.<br>From left to right: Zhou Liu, Zizhen Han, Min Zhao, Lin Li, Bin Luo, Jiangshan Mu, Yuqiang Zhang, Chaoqi Gao, Zhuyi Wang, Xuanying Ji, Na Zhao, and Jingjing Ma.</p>
 </div>
