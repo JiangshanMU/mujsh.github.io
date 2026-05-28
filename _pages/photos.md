@@ -13,6 +13,16 @@ This page collects selected photos from fieldwork, conferences, academic visits,
 The page is arranged so that the sequence increases from bottom to top: `photo_01.jpg` is at the bottom, followed by `photo_02.jpg`, `photo_03.jpg`, and so on upward.
 
 <div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_12.jpg" alt="Photo 12" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Zhang's Group in Qingdao, September 17, 2023.<br>From left to right: Zhou Liu, Zizhen Han, Min Zhao, Lin Li, Bin Luo, Jiangshan Mu, Yuqiang Zhang, Chaoqi Gao, Zhuyi Wang, Xuanying Ji, Na Zhao, and Jingjing Ma.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_11.jpg" alt="Photo 11" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Zhang's Group in Qingdao, September 5, 2023.<br>From left to right: Bin Luo, Jingjing Ma, Jiangshan Mu, Zizhen Han, Xuanying Ji, Na Zhao, Yuqiang Zhang, Lin Li, Zhou Liu, Zhuyi Wang, and Zhaoqi Gao.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_10.jpg" alt="Photo 10" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, June 20, 2023.<br>First row, from left to right: Ye Shan, Yu Yang, Min Zhao, Yuhong Liu, Yue Sun, Bin Luo, Ping Liu, Can Cui, and Xuelian Zhong.<br>Second row, from left to right: Jisheng Zhang, Yanqiu Nie, Jingjing Ma, Xi Lian, Yujiao Zhu, Yuqiang Zhang, Ji Zhang, Likun Xue, Liubin Huang, Lin Li, and Na Zhao.</p>
 </div>
