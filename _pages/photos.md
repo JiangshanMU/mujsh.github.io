@@ -28,7 +28,7 @@ The page is arranged so that the sequence increases from bottom to top: `photo_0
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_06.jpg" alt="Photo 06" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_06.JPG" alt="Photo 06" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, May 28, 2022.<br>Front row, from left to right: Ye Shan, Jiangshan Mu, Xuelian Zhong, Yanqiu Nie, Yu Yang, and Ji Zhang.<br>Back row, from left to right: Yuhong Liu, Hengqing Shen, Yue Sun, Min Zhao, Likun Xue, Yingnan Zhang, Feng Zhao, Yujiao Zhu, Liubin Huang, and Xi Lian.</p>
 </div>
 
@@ -48,7 +48,7 @@ The page is arranged so that the sequence increases from bottom to top: `photo_0
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_02.jpg" alt="Photo 02" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_02.JPG" alt="Photo 02" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, May 8, 2020.<br>Front row, from left to right: Yuhong Liu, Ying Jiang, Yue Sun, Min Zhao, Yingnan Zhang, Juan Yang, Jiangshan Mu, and Feng Zhao.<br>Back row, from left to right: Hengqing Shen, Ye Shan, Hongyong Li, Likun Xue, Juan Li, Can Dong, and Yujiao Zhu.</p>
 </div>
 
