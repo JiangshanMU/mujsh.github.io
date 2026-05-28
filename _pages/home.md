@@ -15,46 +15,20 @@ permalink: /
   border-radius: 18px;
   border: 1px solid #d8e4ee;
   background: linear-gradient(135deg, #f7fbff 0%, #edf5fb 45%, #f8fbff 100%);
-  box-shadow: 0 14px 34px rgba(30, 70, 100, 0.08);
-  animation: fadeInUp 0.8s ease both;
-}
-.home-hero::before {
-  content: "";
-  position: absolute;
-  width: 220px;
-  height: 220px;
-  right: -70px;
-  top: -80px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(78, 145, 190, 0.22), rgba(78, 145, 190, 0));
-  animation: floatGlow 7s ease-in-out infinite;
-}
-.home-hero::after {
-  content: "";
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  left: -50px;
-  bottom: -65px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(75, 125, 170, 0.14), rgba(75, 125, 170, 0));
-  animation: floatGlow 8s ease-in-out infinite reverse;
+  box-shadow: 0 10px 26px rgba(30, 70, 100, 0.06);
 }
 .home-hero h1 {
-  position: relative;
   margin-top: 0;
   margin-bottom: 8px;
   font-size: 2.25rem;
   letter-spacing: -0.02em;
 }
 .home-hero .home-position {
-  position: relative;
   font-size: 1.05rem;
   color: #2f4b63;
   margin-bottom: 18px;
 }
 .home-hero .home-summary {
-  position: relative;
   max-width: 860px;
   margin-bottom: 0;
   color: #33495c;
@@ -62,7 +36,6 @@ permalink: /
   line-height: 1.72;
 }
 .home-tagline {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -71,13 +44,10 @@ permalink: /
 .home-tagline span {
   padding: 6px 11px;
   border-radius: 999px;
-  background: rgba(255,255,255,0.76);
+  background: #ffffff;
   border: 1px solid #d6e4ef;
   color: #31516b;
   font-size: 0.88rem;
-}
-.home-section {
-  animation: fadeInUp 0.8s ease both;
 }
 .home-section h2 {
   margin-top: 30px;
@@ -88,10 +58,6 @@ permalink: /
 .home-section h2 .symbol {
   display: inline-block;
   margin-right: 6px;
-  transition: transform 0.25s ease;
-}
-.home-section h2:hover .symbol {
-  transform: translateY(-2px) scale(1.08);
 }
 .research-block {
   padding: 14px 16px;
@@ -99,30 +65,12 @@ permalink: /
   border-left: 4px solid #8fb4d1;
   background: #fbfdff;
   border-radius: 8px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.research-block:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(33, 75, 110, 0.08);
 }
 .research-block strong {
   color: #243f55;
 }
 #newsid {
-  box-shadow: 0 8px 22px rgba(30, 70, 100, 0.07);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-#newsid:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 28px rgba(30, 70, 100, 0.10);
-}
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(14px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-@keyframes floatGlow {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(-12px, 16px) scale(1.08); }
+  box-shadow: 0 8px 18px rgba(30, 70, 100, 0.06);
 }
 @media (max-width: 768px) {
   .home-hero { padding: 28px 22px; }
