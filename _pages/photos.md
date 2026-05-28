@@ -13,6 +13,11 @@ This page collects selected photos from fieldwork, conferences, academic visits,
 The page is arranged so that the sequence increases from bottom to top: `photo_01.png` is at the bottom, followed by `photo_02.png`, `photo_03.png`, and so on upward.
 
 <div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_08.png" alt="Photo 08" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group Online, January 9, 2023.<br>From left to right and from top to bottom: Ping Liu, Likun Xue, Hengqing Shen, Yujiao Zhu, Jingjing Ma, Ji Zhang, Yuhong Liu, Jiangshan Mu, Liubin Huang, Zongzheng, Yu Yang, Jinghao Tang, Yuqiang Zhang, Xuelian Zhong, Xi Lian, Lin Li, Qingqing Liu, Yue Sun, Ye Shan, Yanqiu Nie, Hongyong Li, Min Zhao, Bin Luo, Can Cui, Jisheng Zhang, and Na Zhao.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_07.png" alt="Photo 07" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, June 22, 2022.<br>Left row, from front to back: Yingnan Zhang, Juan Li, Yu Yang, Xuelian Zhong, Yanqiu Nie, Ji Zhang, Jintian Xue, Feng Zhao, and Yujiao Zhu.<br>Right row, from front to back: Ye Shan, Jiangshan Mu, Xi Lian and Hanhan, Likun Xue, Yue Sun, Min Zhao, Hengqing Shen, Liubin Huang, and Lei Sun.</p>
 </div>
