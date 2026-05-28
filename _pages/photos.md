@@ -14,7 +14,7 @@ The page is arranged so that the sequence increases from bottom to top: `photo_0
 
 <div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_09.jpg" alt="Photo 09" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
-  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Laoshan, Qingdao, May 25, 2023.<br>First row: Jintian Xue.<br>Second row, from left to right: Xuelian Zhong, Can Cui, Yanqiu Nie, Yu Yang, Yue Sun, Min Zhao, Yuhong Liu, Bin Luo, Ping Liu, Lin Li, and Na Zhao.<br>Third row, from left to right: Hongyong Li, Jinghao Tang, Ye Shan, Jisheng Zhang, Ji Zhang, Likun Xue, Liubin Huang, Jiangshan Mu, Yujiao Zhu, Can Dong, Xi Lian, and Jingjing Ma.</p>
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Laoshan, Qingdao, March 25, 2023.<br>First row: Jintian Xue.<br>Second row, from left to right: Xuelian Zhong, Can Cui, Yanqiu Nie, Yu Yang, Yue Sun, Min Zhao, Yuhong Liu, Bin Luo, Ping Liu, Lin Li, and Na Zhao.<br>Third row, from left to right: Hongyong Li, Jinghao Tang, Ye Shan, Jisheng Zhang, Ji Zhang, Likun Xue, Liubin Huang, Jiangshan Mu, Yujiao Zhu, Can Dong, Xi Lian, and Jingjing Ma.</p>
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
