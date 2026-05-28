@@ -33,6 +33,6 @@ The page is arranged so that the sequence increases from bottom to top: `photo_0
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_01.png" alt="Photo 01" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_01.jpg" alt="Photo 01" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Description for photo 01. Replace this sentence with the location, event, or short context.</p>
 </div>
