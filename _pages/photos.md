@@ -8,9 +8,9 @@ permalink: /photos
 
 # Photos
 
-This page collects selected photos from fieldwork, conferences, academic visits, and daily research life. The image paths below are placeholders; replace the corresponding files in `images/photos/` when the final photos are ready.
+This page collects selected group photos from different stages of my academic training and research experience, recording shared moments with mentors, colleagues, and collaborators in the research groups I have been part of.
 
-The page is arranged so that the sequence increases from bottom to top: `photo_01.jpg` is at the bottom, followed by `photo_02.jpg`, `photo_03.jpg`, and so on upward.
+The gallery is arranged chronologically from bottom to top, with earlier photos placed near the bottom and more recent photos toward the top.
 
 <div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_15.jpg" alt="Photo 15" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
