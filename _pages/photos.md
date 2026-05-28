@@ -14,7 +14,7 @@ The page is arranged so that the sequence increases from bottom to top: `photo_0
 
 <div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_05.png" alt="Photo 05" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
-  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Description for photo 05. Replace this sentence with the location, event, or short context.</p>
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, January 9, 2022.<br>Front row, from left to right: Pan Jiang and Lele, Hengqing Shen, Likun Xue, and Liubin Huang.<br>Back row, from left to right: Ye Shan, Min Zhao, Yuhong Liu, Yingnan Zhang, Jiangshan Mu, Tianshu Chen, Ji Zhang, Can Dong, Xi Lian, Feng Zhao, Yanqiu Nie, and Xuelian Zhong.</p>
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
