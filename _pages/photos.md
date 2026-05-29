@@ -13,7 +13,7 @@ This page collects selected group photos from different stages of my academic tr
 The gallery is arranged chronologically from bottom to top, with earlier photos placed near the bottom and more recent photos toward the top.
 
 <div class="photo-entry" style="margin-bottom: 36px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_16.jpg" alt="Photo 16" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_16.JPG" alt="Photo 16" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Zhang's Group in Qingdao, June 21, 2024.<br>First row, from left to right: Yuqiang Zhang and Yimu, Liubin Huang, Likun Xue, Yanqiu Nie, Jinghao Tang, Qinyi Li, Zongzheng, and Yujiao Zhu.<br>Second row, from left to right: Xuanying Ji, Qingqing Liu, Yue Sun, Min Zhao, Yu Yang, Ping Liu, Jingjing Ma, Xi Lian, and Lin Li.<br>Third row, from left to right: Ye Shan, Jiangshan Mu, Hanyuan Zhang, Pengwen Fu, Zhou Liu, Zhuyi Wang, Zizhen Han, and Bin Luo.</p>
 </div>
 
