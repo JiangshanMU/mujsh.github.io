@@ -77,20 +77,19 @@ permalink: /allnews.html
     const thumbHTML = thumb ? `
       <img src="${thumb}" alt="thumbnail for ${String(d.headline||'').replace(/"/g,'&quot;')}"
            loading="lazy"
-           style="width:96px;height:96px;object-fit:cover;border-radius:8px;flex:0 0 auto;"
+           style="width:96px;height:96px;object-fit:cover;border-radius:8px;flex:0 0 auto;cursor:${img ? 'pointer' : 'default'};"
            ${img ? `role="button" tabindex="0" onclick="openNewsModal('${img.replace(/'/g,"\\'")}','${String(d.headline||'').replace(/'/g,"\\'")}')"` : ''} />`
       : '';
 
-    const titleHTML = img
-      ? `<a href="javascript:void(0)" class="text-decoration-none link-dark"
-           onclick="openNewsModal('${img.replace(/'/g,"\\'")}','${String(d.headline||'').replace(/'/g,"\\'")}')">${d.headline||''}</a>`
+    const titleHTML = d.link
+      ? `<a href="${d.link}" target="_blank" rel="noopener" class="text-decoration-none link-dark">${d.headline||''}</a>`
       : (d.headline || '');
 
     const more = d.link ? `<a class="small" href="${d.link}" target="_blank" rel="noopener">Read more →</a>` : '';
     const body = d.body_html || d.body || '';
 
     return `
-      <article class="list-group-item list-group-item-action py-3">
+      <article class="list-group-item py-3">
         <div class="d-flex w-100 align-items-start gap-3">
           ${thumbHTML}
           <div class="flex-grow-1">
