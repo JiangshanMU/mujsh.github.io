@@ -1,315 +1,346 @@
 - date: May 5, 2026
-  headline: "New Research Published in ESSD"
+  headline: "New Research Published in Earth System Science Data"
   body: |
-    My new research, published in Earth System Science Data, uses deep learning to build a global NO2 dataset [https://essd.copernicus.org/articles/18/2999/2026/].
+    My new study in Earth System Science Data presents a deep-learning-based global NO2 dataset designed to support long-term assessments of air pollution, exposure, and inequality.
+  link: "https://essd.copernicus.org/articles/18/2999/2026/"
+
 - date: Mar 16, 2026
-  headline: "Get Married!"
+  headline: "Got Married"
   body: |
-    I obtained my marriage certificate with Yingnan Zhang.
+    Yingnan Zhang and I received our marriage certificate.
+
 - date: Mar 10, 2026
-  headline: "New Research Published in ES&T!"
+  headline: "New Research Published in Environmental Science & Technology"
   body: |
-    I published new insights on atmospheric nitrogen and sulfur deposition and machine learning at ES&T [https://pubs.acs.org/doi/10.1021/acs.est.5c17006].    
+    Our new study in Environmental Science & Technology examines atmospheric nitrogen and sulfur deposition using machine learning and interpretability analyses.
+  link: "https://pubs.acs.org/doi/10.1021/acs.est.5c17006"
+
 - date: January 1, 2026
-  headline: "Happy New Year!"
+  headline: "Happy New Year"
   body: |
-    Say goodbye to 2025, welcome to 2026.
+    Goodbye to 2025, and welcome to 2026.
+
 - date: December 14, 2025
-  headline: "Attended AGU2025 in New Orleans"
+  headline: "Attended AGU 2025 in New Orleans"
   body: |
-    From 14 to 19 Dec., I traveled to New Orleans to participate in AGU2025.
+    I attended the AGU 2025 Fall Meeting in New Orleans from December 14 to 19.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/AGU2025.jpg"
-  
+
 - date: October 24, 2025
-  headline: "Start my postdoctoral assistant at Duke University"
+  headline: "Started My Postdoctoral Appointment at Duke University"
   body: |
-    I flew from Beijing to Durham, US, and started my postdoctoral period at Duke University.
+    I traveled from Beijing to Durham and began my postdoctoral appointment at Duke University.
+
 - date: September 21, 2025
-  headline: "Attended the ABaCAS2025 in Huzhou"
+  headline: "Attended ABaCAS 2025 in Huzhou"
   body: |
-    On September 21–22, I traveled to Huzhou with Prof. Yuqiang Zhang and Bin Luo to participate in the ABaCAS2025.    
+    I attended ABaCAS 2025 in Huzhou with Prof. Yuqiang Zhang and Bin Luo.
+
 - date: August 15, 2025
   headline: "Attended the China Environmental Science Youth Forum in Changsha"
   body: |
-    On August 15–16, I traveled to Changsha with Prof. Likun Xue, Prof. Qinyi Li, Bin Luo, Qingqing Liu, and Zhaoqi Gao to participate in the China Environmental Science Youth Academic Forum.
+    I attended the China Environmental Science Youth Academic Forum in Changsha with Prof. Likun Xue, Prof. Qinyi Li, Bin Luo, Qingqing Liu, and Zhaoqi Gao.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/youth_forum_changsha.jpg"
 
 - date: August 10, 2025
-  headline: "Organized and Attended the 1st Meteorological Congress in Qingdao"
+  headline: "Organized and Attended the First Meteorological Congress in Qingdao"
   body: |
-    From August 10 to 12, I organized and participated in the First Meteorological Congress held in Qingdao.
+    I helped organize and attended the First Meteorological Congress held in Qingdao from August 10 to 12.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/meteorology_congress.jpg"
 
 - date: July 28, 2025
-  headline: "Received Postdoctoral Offer from Duke University"
+  headline: "Received a Postdoctoral Offer from Duke University"
   body: |
-    While traveling in Los Angeles, I was thrilled to receive the official postdoctoral offer from Duke University. This marks an exciting new chapter in my academic journey, and I look forward to joining the team and continuing impactful research.
+    I received the official postdoctoral offer from Duke University, marking the next stage of my academic training and research career.
 
 - date: July 13, 2025
-  headline: "Completed 21km Half Marathon with Yuqiang Zhang and Zhaoqi Gao"
+  headline: "Completed a Half Marathon"
   body: |
-    On July 13, 2025, I completed a 21km half marathon together with Yuqiang Zhang and Zhaoqi Gao. It was a challenging but fulfilling run, demonstrating our perseverance and team spirit. Proud to have shared this achievement with my teammates!
+    I completed a 21 km half marathon together with Yuqiang Zhang and Zhaoqi Gao.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/halfmarathon_20250713.jpg"
+
 - date: June 28, 2025
-  headline: "Hiked Mount Tai with CHANGE group and professors"
+  headline: "Hiked Mount Tai with the CHANGE Group"
   body: |
-    Together with Prof. Likun Xue, Prof. Yuqiang Zhang, and members of the CHANGE research group, we hiked Mount Tai over a two-day journey. A physically and spiritually rewarding experience.
+    I joined Prof. Likun Xue, Prof. Yuqiang Zhang, and members of the CHANGE research group for a two-day hike on Mount Tai.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/mount_tai.jpg"
+
 - date: June 22, 2025
-  headline: "Attended the Ph.D. graduation ceremony"
+  headline: "Attended the Ph.D. Graduation Ceremony"
   body: |
-    I participated in the Ph.D. graduation ceremony, officially marking the end of an incredible academic journey and the beginning of a new chapter.
+    I attended the Ph.D. graduation ceremony at Shandong University.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/graduation.jpg"
+
 - date: May 28, 2025
-  headline: "Ph.D. defense completed with Hongyong Li"
+  headline: "Completed My Ph.D. Defense"
   body: |
-    I successfully defended my Ph.D. dissertation together with Hongyong Li. This marks the culmination of years of research and collaboration—thank you to all who supported us!
+    I successfully defended my Ph.D. dissertation together with Hongyong Li.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/phd_defense.jpg"
+
 - date: May 24, 2025
-  headline: "Master's defense success for Cui,Can, Zhang,Jisheng, and Gao,Zhaoqi"
+  headline: "Master's Defenses Completed by Group Members"
   body: |
-    Congratulations to our group members Can Cui, Jisheng Zhang, and Zhaoqi Gao for successfully defending their Master's theses!
+    Congratulations to Can Cui, Jisheng Zhang, and Zhaoqi Gao for successfully defending their master's theses.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/masters_defense.jpg"
+
 - date: May 17, 2025
-  headline: "Attended Hongyong Li's wedding in Jinan"
+  headline: "Attended Hongyong Li's Wedding in Jinan"
   body: |
-    TRACE group members traveled to Jinan to celebrate the wedding of Hongyong Li. Congratulations to the happy couple!
+    Members of the TRACE group traveled to Jinan to celebrate Hongyong Li's wedding.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/wedding_jinan.jpg"
+
 - date: May 1, 2025
-  headline: "Wang, Zhuyi departs for a one-year visit at Duke University"
+  headline: "Zhuyi Wang Began a One-Year Visit at Duke University"
   body: |
-    Our group member, Zhuyi Wang, began her one-year visiting scholar program at Duke University. We wish her all the best in her academic journey abroad.
+    Zhuyi Wang began her one-year visiting scholar appointment at Duke University.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/wang_duke.jpg"
+
 - date: April 24, 2025
-  headline: "CHANGER Group Hike at Laoshan (Yangkou)"
+  headline: "CHANGE Group Spring Hike at Laoshan"
   body: |
-    On April 24, 2025, CHANGE group gathered for a spring outing to Yangkou, Laoshan in Qingdao. We enjoyed hiking the mountain trails, sharing laughter and reflections on both research and life, making it a memorable day.
+    The CHANGE group gathered for a spring outing at Yangkou, Laoshan, in Qingdao.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/changer_luoshan_yangkou_20250424.jpg"
+
 - date: March 12, 2025
-  headline: "Attended the 1st Artificial Intelligence Conference in Shanghai"
+  headline: "Attended the First Artificial Intelligence Conference in Shanghai"
   body: |
-    From March 12 to 13, 2025, I attended the 1st Artificial Intelligence Conference in Shanghai together with Liu,Zhou and Niu,Chengwen.
+    I attended the First Artificial Intelligence Conference in Shanghai with Zhou Liu and Chengwen Niu.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ai_conference_shanghai_20250312.jpg"
+
 - date: January 20, 2025
-  headline: "Last Changer Group Dinner Before Winter Break"
+  headline: "CHANGE Group Dinner Before Winter Break"
   body: |
-    On January 20, CHANGE group gathered for a warm group dinner to celebrate the end of a productive semester before the winter break. See you next year!
+    The CHANGE group gathered for a dinner before the winter break.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/dinner_changer_20250120.jpg"
+
 - date: January 1, 2025
-  headline: "Happy New Year!"
+  headline: "Happy New Year"
   body: |
-    Wishing everyone a joyful and fulfilling 2025! May the new year bring health, happiness, and continued academic success.
+    Best wishes for a healthy, productive, and fulfilling 2025.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/newyear2025.jpg"
-- date: December 7–15, 2024
+
+- date: December 7, 2024
   headline: "Attended AGU 2024 and Gave an Oral Presentation"
   body: |
-    From December 7 to 15, 2024, I attended the American Geophysical Union (AGU) Fall Meeting held in Washington DC, USA, together with my group members Prof. Yuqiang Zhang, Yu Yang, and Bin Luo. I gave an oral presentation showcasing our latest research progress. 
+    I attended the AGU Fall Meeting in Washington, DC, from December 7 to 15 with Prof. Yuqiang Zhang, Yu Yang, and Bin Luo, and gave an oral presentation on our recent research.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/AGU2024.jpg"
+
 - date: November 17, 2024
-  headline: "Men’s Singles Champion in School Badminton Tournament"
+  headline: "Won the Men's Singles Championship in a Badminton Tournament"
   body: |
-    On November 17, 2024, I participated in the annual school badminton tournament and won the men’s singles championship.
+    I won the men's singles championship in the annual school badminton tournament.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/badminton2024.jpg"
+
 - date: November 11, 2024
-  headline: "Project Workshop at Nanjing University of Information Science and Technology (NUIST)"
+  headline: "Project Workshop at Nanjing University of Information Science and Technology"
   body: |
-    From November 8 to 11, 2024, I visited Nanjing University of Information Science and Technology (NUIST) to participate in a project workshop.
+    I visited Nanjing University of Information Science and Technology from November 8 to 11 for a project workshop.
 
 - date: October 27, 2024
   headline: "TRACE Group Hiking Trip to Mount Laoshan"
   body: |
-    On October 27, 2024, the TRACE research group organized a team-building hiking activity to the summit of Mount Laoshan (Jufeng). As the highest peak along China’s coastline, Jufeng offered breathtaking views and a great opportunity to strengthen group spirit and enjoy nature together.
+    The TRACE group organized a team-building hike to Jufeng, the highest peak of Mount Laoshan.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/laoshan2024.jpg"
+
 - date: October 25, 2024
   headline: "Attended the 100th Anniversary Celebration of Ocean University of China"
   body: |
-    On October 25, 2024, I returned to Ocean University of China to attend the 100th anniversary celebration.
+    I returned to Ocean University of China to attend its 100th anniversary celebration.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ouc100.jpg"
+
 - date: September 22, 2024
-  headline: "Attended ABACAS Conference in Shanghai"
+  headline: "Attended the ABaCAS Conference in Shanghai"
   body: |
-    From September 19 to 22, 2024, I attended the ABaCAS conference in Shanghai with Prof. Zhang,Yuqiang, Liu,Zhou, and Gao,Zhaoqi.
+    I attended the ABaCAS conference in Shanghai with Prof. Yuqiang Zhang, Zhou Liu, and Zhaoqi Gao.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/abacas2024.jpg"
+
 - date: August 10, 2024
-  headline: "Reunion with Sun,Tao, Li,Lei, and Gao,Hongliang in Jinan"
+  headline: "Reunion with Friends in Jinan"
   body: |
-    On August 9–10, 2024, I reunited with Sun,Tao, Li,Lei, and Gao,Hongliang in Jinan. It was a joyful and heartwarming gathering.
+    I reunited with Tao Sun, Lei Li, and Hongliang Gao in Jinan.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/jinan_reunion_2024.jpg"
+
 - date: August 2, 2024
-  headline: "CHANGE group retreat in Huangdao"
+  headline: "CHANGE Group Retreat in Huangdao"
   body: |
-    From August 1 to 2, 2024, the CHANGE research group held a summer retreat in Huangdao, Qingdao. It was a refreshing and productive getaway.
+    The CHANGE research group held a summer retreat in Huangdao, Qingdao, from August 1 to 2.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/huangdao_retreat_2024.jpg"
+
 - date: July 27, 2024
-  headline: "Attended Liminglei’s wedding in Qingzhou"
+  headline: "Attended Minglei Li's Wedding in Qingzhou"
   body: |
-    On July 27, 2024, I attended the wedding ceremony of my friend Li,Minglei held in Qingzhou. Congratulations to the newlyweds!
+    I attended the wedding ceremony of Minglei Li in Qingzhou.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/wedding_liminglei_2024.jpg"
+
 - date: June 21, 2024
-  headline: "Tang,Jinghao and Nie,Yanqiu graduated with master's degrees"
+  headline: "Jinghao Tang and Yanqiu Nie Graduated with Master's Degrees"
   body: |
-    On June 21, 2024, Tang,inghao and Nie,Yanqiu from the TRACE research group successfully completed their master's studies and officially graduated. Congratulations to them both and best wishes for their future endeavors!
+    Jinghao Tang and Yanqiu Nie from the TRACE research group completed their master's studies and graduated.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/trace_graduation_2024.jpg"
+
 - date: June 15, 2024
-  headline: "Celebrated my 26th birthday with G.E.M. concert"
+  headline: "Celebrated My 27th Birthday with a G.E.M. Concert"
   body: |
-    On June 15, 2024, I celebrated my 27th birthday with friends by attending G.E.M.'s concert. It was an unforgettable night filled with music, laughter, and joy.
+    I celebrated my 27th birthday with friends by attending a G.E.M. concert.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/GEM_Concert_2024.jpg"
+
 - date: May 27, 2024
-  headline: "Oral presentation at PhD Forum in Nanjing"
+  headline: "Gave an Oral Presentation at a Ph.D. Forum in Nanjing"
   body: |
-    From May 26 to 27, 2024, I participated in the PhD Forum held in Nanjing, where I delivered an oral presentation on my recent research progress.
+    I participated in a Ph.D. forum in Nanjing from May 26 to 27 and delivered an oral presentation on my recent research progress.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/PhDForum_Nanjing.jpg"
+
 - date: May 25, 2024
-  headline: "TRACE group reunion and hike on Heshan"
+  headline: "TRACE Group Reunion and Hike on Heshan"
   body: |
-    On May 25, 2024, I joined the TRACE research group for a reunion and group hiking activity on Heshan in Qingdao.
+    I joined the TRACE research group for a reunion and group hike on Heshan in Qingdao.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/HeshanHike.jpg"
+
 - date: May 24, 2024
-  headline: "Attended Nature Conference - Air Pollution and Climate Change"
+  headline: "Attended the Nature Conference on Air Pollution and Climate Change"
   body: |
-    From May 22 to 24, 2024, Yuqiang Zhang, Zhuyi, Bin, Zhou, and me attended the Nature Conference - Air Pollution and Climate Change held in Beijing, China. 
+    I attended the Nature Conference on Air Pollution and Climate Change in Beijing with Yuqiang Zhang, Zhuyi Wang, Bin Luo, and Zhou Liu.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/NatureConference.jpg"
+
 - date: May 17, 2024
-  headline: "Returned to Beijing after academic exchange in Madrid"
+  headline: "Returned to Beijing after an Academic Exchange in Madrid"
   body: |
-    On May 17, 2024, I concluded my four-month academic exchange at the Universidad Politécnica de Madrid and returned to Beijing.
+    I completed my four-month academic exchange at the Universidad Politecnica de Madrid and returned to Beijing.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/Madrid.jpg"
 
 - date: April 20, 2024
-  headline: "Presented at EGU General Assembly 2024 in Vienna, Austria."
+  headline: "Presented at the EGU General Assembly 2024"
   body: |
-    From April 14 to 20, 2024, I participated in the European Geosciences Union (EGU) General Assembly held in Vienna, Austria. During the conference, I delivered an oral presentation and presented a poster showcasing my recent research.
+    I attended the EGU General Assembly in Vienna from April 14 to 20, where I delivered an oral presentation and presented a poster.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/EGU.jpg"
 
 - date: January 28, 2024
-  headline: "Flight from Beijing to Madrid."
+  headline: "Started an Academic Exchange in Madrid"
   body: |
-    I flew from Beijing to Madrid, Spain, to begin a four-month exchange student programme at the Universidad Politécnica de Madrid.
+    I flew from Beijing to Madrid to begin a four-month academic exchange at the Universidad Politecnica de Madrid.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/FLIGHT.jpg"
 
 - date: January 20, 2024
-  headline: "TRACE group year-end wrap-up and reunion."
+  headline: "TRACE Group Year-End Meeting and Reunion"
   body: |
-    Trace group held its 2023 summary report meeting and dinner.
+    The TRACE group held its 2023 summary meeting and year-end dinner.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/trace2023.jpg"
 
 - date: January 16, 2024
-  headline: "Shan Ye and Yuanyuan's Wedding" 
+  headline: "Attended Shan Ye and Yuanyuan's Wedding"
   body: |
-    TRACE Group attended Shanye and Yuanyuan's wedding, congrats!
+    Members of the TRACE group attended the wedding of Shan Ye and Yuanyuan.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/wedding.jpg"
 
 - date: January 1, 2024
   headline: "Happy New Year"
   body: |
-    The TRACE group spent New Year's Eve together at Yuhong's house.
+    The TRACE group spent New Year's Eve together at Yuhong Liu's home.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/year.jpg"
 
 - date: November 7, 2023
-  headline: "Champion of the House Badminton Match."
+  headline: "Won the Men's Singles Championship in a College Badminton Tournament"
   body: |
-    I won the men's singles champion in the college badminton tournament, and four students from the TRACE group took the top four places in the women's singles.
+    I won the men's singles championship in the college badminton tournament, and four students from the TRACE group ranked in the top four in the women's singles competition.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ymq.jpg"
 
 - date: September 22, 2023
-  headline: "2023 ABaCAS & Atmospheric Haze conference."
+  headline: "Hosted the 2023 ABaCAS and Atmospheric Haze Conference"
   body: |
-    Our department successfully hosted the 2023 ABaCAS & Atmospheric Haze conference in Qingdao, Shandong.
+    Our department hosted the 2023 ABaCAS and Atmospheric Haze Conference in Qingdao.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/abacas.jpg"
 
 - date: September 17, 2023
-  headline: "CHANGE Group 1st Badminton Tournament."
+  headline: "CHANGE Group First Badminton Tournament"
   body: |
-    The CHANGE subject group organised the first badminton tournament.
+    The CHANGE research group organized its first badminton tournament.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ymqchange.jpg"
 
 - date: August 12, 2023
-  headline: "My trip in Hong Kong."
+  headline: "Trip to Hong Kong and Macau"
   body: |
-    I spent a week in Hong Kong and Macau, but in the meantime I got sick.
+    I spent a week traveling in Hong Kong and Macau.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/hk.jpg"
 
 - date: July 13, 2023
-  headline: "Our new name: TRACE!"
+  headline: "Our Group Adopted the Name TRACE"
   body: |
-    Our group changed its name from GAC to TRACE (Team for Research in Atmospheric Chemistry and Environment).
+    Our group changed its name from GAC to TRACE: Team for Research in Atmospheric Chemistry and Environment.
 
 - date: June 15, 2023
-  headline: "My 26th Birthday."
+  headline: "Celebrated My 26th Birthday"
   body: |
-    I had my 26th birthday, thanks.
+    I celebrated my 26th birthday with friends and group members.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/birthday.jpg"
 
 - date: June 11, 2023
-  headline: "GAC group summer trip!"
+  headline: "GAC Group Summer Trip"
   body: |
-    The GAC group went on a two-day summer trip in and around Mountain Lao.
-    
+    The GAC group went on a two-day summer trip around Mount Laoshan.
+
 - date: May 20, 2023
-  headline: "Zhang Ji defended his thesis"
+  headline: "Ji Zhang Defended His Master's Thesis"
   body: |
-    Zhang Ji defended his academic thesis, received his master's degree and will go to Nanjing University to study for a doctorate degree.
+    Ji Zhang defended his master's thesis, received his degree, and later joined Nanjing University for doctoral study.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/zj.jpg"
 
 - date: May 16, 2023
-  headline: "China Blue Book on Prevention and Control of Atmospheric Ozone Pollution 2023 - Expert Consultation Meeting"
+  headline: "Expert Consultation Meeting on the 2023 China Blue Book on Ozone Pollution"
   body: |
-    Our department successfully hosted "China Blue Book on Prevention and Control of Atmospheric Ozone Pollution 2023 - Expert Consultation Meeting" in Qingdao, Shandong.
+    Our department hosted the expert consultation meeting for the China Blue Book on Prevention and Control of Atmospheric Ozone Pollution 2023 in Qingdao.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/lps.jpg"
-    
+
 - date: April 7, 2023
-  headline: "Lectures on Artificial Intelligence"
+  headline: "Attended Lectures on Artificial Intelligence"
   body: |
-    I attended a lecture on Artificial Intelligence and OpenAI at Shandong University Central Campus (Jinan).
+    I attended a lecture on artificial intelligence and OpenAI at the Central Campus of Shandong University in Jinan.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ai.jpg"
 
 - date: April 2, 2023
-  headline: "The 4th Academic Forum on Biogeochemical Cycle of Nitrogen."
+  headline: "Attended the 4th Academic Forum on Biogeochemical Cycling of Nitrogen"
   body: |
-    I participated in [the 4th Academic Forum on Biogeochemical Cycle of Nitrogen](https://www.ues.pku.edu.cn/xyxw/369444.htm) held at Peking University.
+    I attended the 4th Academic Forum on Biogeochemical Cycling of Nitrogen at Peking University.
+  link: "https://www.ues.pku.edu.cn/xyxw/369444.htm"
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/N.jpg"
-    
+
 - date: March 25, 2023
-  headline: "GAC group spring trip！"
+  headline: "GAC Group Spring Trip"
   body: |
-    The GAC group went on a one-day spring trip in and around Mountain Lao (Yangkou).
+    The GAC group went on a one-day spring trip to Yangkou, Mount Laoshan.
 
 - date: March 16, 2023
-  headline: "The website is up!"
+  headline: "Website Launched"
   body: |
-    Reusing [code from the Allan Lab](http://www.allanlab.org/aboutwebsite.html) (thanks!), we have set up this website.
+    This personal academic website was launched using code adapted from the Allan Lab website.
+  link: "http://www.allanlab.org/aboutwebsite.html"
 
-- date: Mar, 2023
-  headline: |
-    The <a href="https://www.sciencedirect.com/science/article/pii/S0160412023001344"><em>PM2.5 and Machine Learning </em> paper</a> is out!
+- date: March 1, 2023
+  headline: "Paper on PM2.5 and Machine Learning Published"
   body: |
-    The article ["Contributions of various driving factors to air pollution events: Interpretability analysis from Machine learning perspective"](https://www.sciencedirect.com/science/article/pii/S0160412023001344)!
-   
-- date: Feb, 2023
-  headline: |
-    Join the XYZ-CHANGE Group!
-  body: |
-    Jiangshan joined the XYZ-CHANGE(Climate Health and Air quality for Next GEneration) group led by Prof. Zhang Yuqiang!
-    
-- date: Dec, 2022
-  headline: Winter observation experiment in Qingdao!
-  body: |
-    Jiangshan participated in a winter observation experiment in Qingdao organized by Shandong University, Hong Kong Polytechnic University and Guangzhou Institute of Geochemistry.
-    
-- date: Nov, 2022
-  headline: Pass mid-thesis exam, congrats!
-  body: |
-    Jiangshan passed mid-thesis exam and received "Excellent".
+    Our paper on interpretability analysis of air pollution events from a machine-learning perspective was published.
+  link: "https://www.sciencedirect.com/science/article/pii/S0160412023001344"
 
-- date: Oct, 2022
-  headline: |
-    Instrument repair in Suzhou.
+- date: February 1, 2023
+  headline: "Joined the XYZ-CHANGE Group"
   body: |
-    Repair of I-CIMS in Suzhou with Yuhong Liu.
-    
-- date: Jun, 2022
-  headline: Dr. Zhang graduated from SDU, congrats!
+    I joined the XYZ-CHANGE group, Climate Health and Air Quality for the Next Generation, led by Prof. Yuqiang Zhang.
+
+- date: December 1, 2022
+  headline: "Participated in a Winter Observation Campaign in Qingdao"
   body: |
-    Yingnan Zhang, received her PhD from Shandong University and went to Hong Kong Polytechnic as a postdoctoral researcher.
-    
+    I participated in a winter observation campaign in Qingdao organized by Shandong University, the Hong Kong Polytechnic University, and the Guangzhou Institute of Geochemistry.
+
+- date: November 1, 2022
+  headline: "Passed the Mid-Thesis Examination"
+  body: |
+    I passed the Ph.D. mid-thesis examination with an excellent evaluation.
+
+- date: October 1, 2022
+  headline: "Instrument Repair in Suzhou"
+  body: |
+    I worked with Yuhong Liu on I-CIMS instrument repair in Suzhou.
+
+- date: June 1, 2022
+  headline: "Yingnan Zhang Received Her Ph.D. from Shandong University"
+  body: |
+    Yingnan Zhang received her Ph.D. from Shandong University and later joined the Hong Kong Polytechnic University as a postdoctoral researcher.
