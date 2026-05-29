@@ -13,6 +13,16 @@ This page collects selected group photos from different stages of my academic tr
 The gallery is arranged chronologically from bottom to top, with earlier photos placed near the bottom and more recent photos toward the top.
 
 <div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_22.jpg" alt="Photo 22" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Shindell's Group in Durham, January 22, 2026.<br>From left to right: Qianru Zhang, Jiangshan Mu, Drew Pendergrass, Drew Shindell, Wenyu Liu, Buket Sahin, Zhuyi Wang, and Chi Zhang.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_21.jpg" alt="Photo 21" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Shindell's Group in Durham, December 7, 2025.<br>Left side, from front to back: Qianru Zhang, Drew Shindell, and Drew Pendergrass.<br>Right side, from front to back: Wenyu Liu, Chi Zhang, Zhuyi Wang, and Jiangshan Mu.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_20.jpg" alt="Photo 20" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group at Mount Tai, Tai'an, July 1, 2025.<br>First row, from left to right: Jiangshan Mu and Bin Luo.<br>Second row, from left to right: Qionghui Zhou, Xuanying Ji, Yishu Zhang, Jintian Xue, Yuqiang Zhang, Summer Zhang, Likun Xue, Ping Liu, Haoxin Sui, Zizhen Han, Lanxin Zhang, Chengwen Niu, and Zhaoqi Gao.</p>
 </div>
