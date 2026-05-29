@@ -13,6 +13,11 @@ This page collects selected group photos from different stages of my academic tr
 The gallery is arranged chronologically from bottom to top, with earlier photos placed near the bottom and more recent photos toward the top.
 
 <div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_20.jpg" alt="Photo 20" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group at Mount Tai, Tai'an, July 1, 2025.<br>First row, from left to right: Jiangshan Mu and Bin Luo.<br>Second row, from left to right: Qionghui Zhou, Xuanying Ji, Yishu Zhang, Jintian Xue, Yuqiang Zhang, Summer Zhang, Likun Xue, Ping Liu, Haoxin Sui, Zizhen Han, Lanxin Zhang, Chengwen Niu, and Zhaoqi Gao.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_19.jpg" alt="Photo 19" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Qingdao, June 9, 2025.<br>First row, from left to right: Hengqing Shen, Zongzheng, Qinyi Li, Yujiao Zhu, Can Cui, Jiangshan Mu, Jisheng Zhang, Likun Xue, Liubin Huang, and Na Zhao.<br>Second row, from left to right: Bin Luo, Yu Yang, Yuhong Liu, Qingqing Liu, Xuanying Ji, Qionghui Zhou, Ruyu Yuan, Lanxin Zhang, Chunyue Miao, Xi Lian, and Jingjing Ma.<br>Third row, from left to right: Xuelian Zhong, Zizhen Han, Yue Sun, Ping Liu, Yuecheng Jian, Haoxin Sui, Hanyuan Zhang, and Pengwen Fu.</p>
 </div>
