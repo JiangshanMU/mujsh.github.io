@@ -17,6 +17,20 @@ I study atmospheric composition and its implications for air quality, environmen
 
 ## About Me
 
+<div id="newsid" class="float-md-end col-sm-3 bg-light border" style="display:block; padding: 14px; margin-left: 18px; margin-bottom: 14px; border-radius: 6px;">
+<div class="well">
+<h4>Latest News</h4>
+<p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
+<hr style="margin-top: 14px; margin-bottom: 8px;" />
+{% for article in site.data.news limit:6 %}
+<p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
+{% unless forloop.last %}
+<hr style="margin-top: 5px; margin-bottom: 8px;" />
+{% endunless %}
+{% endfor %}
+</div>
+</div>
+
 {% for member in site.data.team_members limit:1 %}
 <div class="card mb-3 border-0" style="width: 100%; margin-bottom: 24px;">
 <div class="row g-0 align-items-start">
@@ -65,19 +79,7 @@ Email:
 </div>
 {% endfor %}
 
-<div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding: 18px; margin-left: 24px; margin-bottom: 18px; border-radius: 6px;">
-<div class="well">
-<h4>Latest News</h4>
-<p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
-<hr style="margin-top: 18px; margin-bottom: 8px;" />
-{% for article in site.data.news limit:6 %}
-<p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
-{% unless forloop.last %}
-<hr style="margin-top: 5px; margin-bottom: 8px;" />
-{% endunless %}
-{% endfor %}
-</div>
-</div>
+<div style="clear: both;"></div>
 
 ## Research Profile
 
