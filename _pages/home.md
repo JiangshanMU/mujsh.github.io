@@ -17,11 +17,11 @@ I study atmospheric composition and its implications for air quality, environmen
 
 ## About Me
 
-<div class="row align-items-start">
+<div class="row align-items-stretch">
 <div class="col-md-8">
 
 {% for member in site.data.team_members limit:1 %}
-<div class="card mb-3 border-0" style="width: 100%; margin-bottom: 24px;">
+<div class="card mb-3 border-0 h-100" style="width: 100%; margin-bottom: 24px;">
 <div class="row g-0 align-items-start">
 <div class="col-md-3">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
@@ -69,13 +69,13 @@ Email:
 {% endfor %}
 
 </div>
-<div class="col-md-4">
-<div id="newsid" class="bg-light border" style="display:block; padding: 14px; border-radius: 6px; max-width: 330px; margin-left: auto;">
+<div class="col-md-4 d-flex">
+<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; max-width: 330px; margin-left: auto; overflow: hidden;">
 <div class="well">
 <h4>Latest News</h4>
 <p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
 <hr style="margin-top: 14px; margin-bottom: 8px;" />
-{% for article in site.data.news limit:6 %}
+{% for article in site.data.news limit:4 %}
 <p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
 {% unless forloop.last %}
 <hr style="margin-top: 5px; margin-bottom: 8px;" />
