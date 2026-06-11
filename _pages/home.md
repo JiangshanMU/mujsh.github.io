@@ -17,27 +17,16 @@ I study atmospheric composition and its implications for air quality, environmen
 
 ## About Me
 
-<div id="newsid" class="float-md-end col-sm-3 bg-light border" style="display:block; padding: 14px; margin-left: 18px; margin-bottom: 14px; border-radius: 6px;">
-<div class="well">
-<h4>Latest News</h4>
-<p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
-<hr style="margin-top: 14px; margin-bottom: 8px;" />
-{% for article in site.data.news limit:6 %}
-<p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
-{% unless forloop.last %}
-<hr style="margin-top: 5px; margin-bottom: 8px;" />
-{% endunless %}
-{% endfor %}
-</div>
-</div>
+<div class="row align-items-start">
+<div class="col-md-8">
 
 {% for member in site.data.team_members limit:1 %}
 <div class="card mb-3 border-0" style="width: 100%; margin-bottom: 24px;">
 <div class="row g-0 align-items-start">
-<div class="col-md-2">
+<div class="col-md-3">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
 </div>
-<div class="col-md-10">
+<div class="col-md-9">
 <div class="card-body pt-0">
 <h5 class="card-title">
   {{ member.name }}
@@ -79,7 +68,23 @@ Email:
 </div>
 {% endfor %}
 
-<div style="clear: both;"></div>
+</div>
+<div class="col-md-4">
+<div id="newsid" class="bg-light border" style="display:block; padding: 14px; border-radius: 6px; max-width: 330px; margin-left: auto;">
+<div class="well">
+<h4>Latest News</h4>
+<p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
+<hr style="margin-top: 14px; margin-bottom: 8px;" />
+{% for article in site.data.news limit:6 %}
+<p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
+{% unless forloop.last %}
+<hr style="margin-top: 5px; margin-bottom: 8px;" />
+{% endunless %}
+{% endfor %}
+</div>
+</div>
+</div>
+</div>
 
 ## Research Profile
 
