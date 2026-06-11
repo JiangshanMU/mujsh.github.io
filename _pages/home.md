@@ -70,7 +70,7 @@ Email:
 
 </div>
 <div class="col-md-3 d-flex">
-<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 340px; margin-left: auto; margin-top: -8px; overflow: hidden;">
+<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 360px; margin-left: auto; margin-top: -8px; overflow: hidden;">
 <div class="well">
 <h4>Latest News</h4>
 <p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
@@ -113,7 +113,7 @@ I welcome research discussions and collaborations related to atmospheric chemist
 **Email:** [mujiangshan0615@gmail.com](mailto:mujiangshan0615@gmail.com) | [jiangshan.mu@duke.edu](mailto:jiangshan.mu@duke.edu)
 
 **Office:** Nicholas School of the Environment, Duke University  
-Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708  
-LSRCA152
+            Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708  
+            LSRCA152
 
 <!-- Original homepage backup: _backup/home_2026-05-28_before-homepage-beautification.md -->
