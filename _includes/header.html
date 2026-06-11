@@ -1,31 +1,18 @@
 <nav class="navbar navbar-expand-md sticky-top navbar-dark" style="background-color: #0b3d91;">
   <div class="container-fluid position-relative">
-
-    <!-- 左侧菜单 -->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
         <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a>
         <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/research">Research</a>
         <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/photos">Photos</a>
-        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/aboutme">About Me</a>
       </div>
     </div>
-
-    <!-- 中间标题（强制居中） -->
     <a class="navbar-brand position-absolute top-50 start-50 translate-middle text-center" href="{{ site.url }}{{ site.baseurl }}/">
       {{ site.title | default: "Jiangshan Mu, Ph.D." }}
     </a>
-
-    <!-- 小屏按钮（保持在右） -->
-    <button class="navbar-toggler ms-auto" type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
   </div>
 </nav>
