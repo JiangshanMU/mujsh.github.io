@@ -69,8 +69,8 @@ Email:
 {% endfor %}
 
 </div>
-<div class="col-md-3 d-flex">
-<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 360px; margin-left: auto; margin-top: -8px; overflow: hidden;">
+<div class="col-md-3 d-flex ps-md-1">
+<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 390px; margin-left: auto; margin-top: -16px; overflow: hidden;">
 <div class="well">
 <h4>Latest News</h4>
 <p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
@@ -110,10 +110,15 @@ Investigating how emission changes influence atmospheric composition, radiative 
 
 I welcome research discussions and collaborations related to atmospheric chemistry, air pollution exposure, environmental health, and data-driven atmospheric science.
 
-**Email:** [mujiangshan0615@gmail.com](mailto:mujiangshan0615@gmail.com) | [jiangshan.mu@duke.edu](mailto:jiangshan.mu@duke.edu)
-
-**Office:** Nicholas School of the Environment, Duke University  
-            Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708  
-            LSRCA152
+<table style="border-collapse: collapse; border: none; margin-top: 8px;">
+<tr style="border: none;">
+<td style="border: none; padding: 0 8px 2px 0; vertical-align: top;"><strong>Email:</strong></td>
+<td style="border: none; padding: 0 0 2px 0; vertical-align: top;"><a href="mailto:mujiangshan0615@gmail.com">mujiangshan0615@gmail.com</a> | <a href="mailto:jiangshan.mu@duke.edu">jiangshan.mu@duke.edu</a></td>
+</tr>
+<tr style="border: none;">
+<td style="border: none; padding: 0 8px 2px 0; vertical-align: top;"><strong>Office:</strong></td>
+<td style="border: none; padding: 0 0 2px 0; vertical-align: top;">Nicholas School of the Environment, Duke University<br>Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708<br>LSRCA152</td>
+</tr>
+</table>
 
 <!-- Original homepage backup: _backup/home_2026-05-28_before-homepage-beautification.md -->
