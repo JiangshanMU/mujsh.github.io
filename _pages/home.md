@@ -70,7 +70,7 @@ Email:
 
 </div>
 <div class="col-md-3 d-flex">
-<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; max-width: 300px; margin-left: auto; overflow: hidden;">
+<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 340px; margin-left: auto; margin-top: -8px; overflow: hidden;">
 <div class="well">
 <h4>Latest News</h4>
 <p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
