@@ -15,25 +15,11 @@ I study atmospheric composition and its implications for air quality, environmen
 
 ---
 
-<div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding: 18px; margin-left: 24px; margin-bottom: 18px; border-radius: 6px;">
-<div class="well">
-<h4>Latest News</h4>
-<p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
-<hr style="margin-top: 18px; margin-bottom: 8px;" />
-{% for article in site.data.news limit:6 %}
-<p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
-{% unless forloop.last %}
-<hr style="margin-top: 5px; margin-bottom: 8px;" />
-{% endunless %}
-{% endfor %}
-</div>
-</div>
-
 ## About Me
 
 {% for member in site.data.team_members limit:1 %}
-<div class="card mb-3 border-0" style="width: 100%;">
-<div class="row g-0">
+<div class="card mb-3 border-0" style="width: 100%; margin-bottom: 24px;">
+<div class="row g-0 align-items-start">
 <div class="col-md-2">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
 </div>
@@ -79,11 +65,19 @@ Email:
 </div>
 {% endfor %}
 
-My name is Jiangshan Mu. I am a Postdoctoral Fellow in Drew Shindell’s Lab at Duke University. I received my Ph.D. in Atmospheric Environment from the Institute of Environmental Research at Shandong University.
-
-My research focuses on the spatiotemporal variability, sources, and impacts of tropospheric air pollutants, with particular emphasis on atmospheric photochemistry, air pollution, and climate interactions. I combine field observations, satellite products, chemical transport models, and data-driven methods to investigate atmospheric composition and the processes that shape it. My recent work includes the development of high-resolution long-term pollutant datasets, analyses of population exposure and inequality, and the interpretation of atmospheric processes using explainable machine learning frameworks.
-
-I am also interested in three-dimensional atmospheric modeling as a tool for understanding the dynamic behavior of the atmosphere and for improving the quantification of emissions, chemistry, and transport. More broadly, I aim to use interdisciplinary approaches to address important environmental questions and to advance rigorous, impactful research in atmospheric science.
+<div id="newsid" class="float-md-end col-sm-4 bg-light border" style="display:block; padding: 18px; margin-left: 24px; margin-bottom: 18px; border-radius: 6px;">
+<div class="well">
+<h4>Latest News</h4>
+<p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
+<hr style="margin-top: 18px; margin-bottom: 8px;" />
+{% for article in site.data.news limit:6 %}
+<p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
+{% unless forloop.last %}
+<hr style="margin-top: 5px; margin-bottom: 8px;" />
+{% endunless %}
+{% endfor %}
+</div>
+</div>
 
 ## Research Profile
 
@@ -104,13 +98,6 @@ Assessing long-term population exposure to air pollution and identifying dispari
 
 **Air quality and climate interactions**  
 Investigating how emission changes influence atmospheric composition, radiative forcing, and the coupled air-quality and climate consequences of human activities.
-
-## Selected Research Themes
-
-- Long-term reconstruction of global air pollutant concentrations using machine learning and multi-source atmospheric data.
-- Population exposure assessment and inequality analysis based on high-resolution atmospheric datasets.
-- Attribution of air-quality changes to anthropogenic emissions, meteorology, and chemical processes.
-- Evaluation of model simulations using ground-based, aircraft, satellite, and reanalysis datasets.
 
 ## Contact
 
