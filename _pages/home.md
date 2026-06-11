@@ -95,7 +95,7 @@ My research focuses on the processes, patterns, and consequences of atmospheric 
 ## Research Interests
 
 **Atmospheric composition and air pollution**  
-Quantifying the spatial and temporal variability of key atmospheric pollutants, with emphasis on nitrogen oxides, ozone, particulate matter, and related chemical processes.
+Quantifying the spatial and temporal variability of atmospheric pollutants, with emphasis on nitrogen oxides, ozone, particulate matter, and related chemical processes.
 
 **Data-driven atmospheric reconstruction**  
 Developing machine-learning approaches that combine satellite observations, ground measurements, meteorology, emissions, and chemical transport model outputs to reconstruct high-resolution pollutant fields.
@@ -108,7 +108,7 @@ Investigating how emission changes influence atmospheric composition, radiative 
 
 ## Contact
 
-I welcome research discussions and collaborations related to atmospheric chemistry, air pollution exposure, environmental health, and data-driven atmospheric science.
+I welcome discussions and collaborations related to atmospheric chemistry, air pollution exposure, environmental health, and data-driven atmospheric science.
 
 <table style="border-collapse: collapse; border: none; margin-top: 8px;">
 <tr style="border: none;">
