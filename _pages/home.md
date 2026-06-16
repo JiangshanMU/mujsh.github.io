@@ -6,14 +6,18 @@ sitemap: false
 permalink: /
 ---
 
-# Jiangshan Mu
+<h1 style="font-size: 2.7rem; font-weight: 400; margin-bottom: 0.4rem;">Jiangshan Mu</h1>
 
-**Postdoctoral Fellow**  
+<p style="margin-bottom: 1rem; line-height: 1.35;">
+<strong>Postdoctoral Fellow</strong><br>
 Nicholas School of the Environment, Duke University
+</p>
 
-I train models to track our changing climate, and they train me to help humanity adapt.
+<p style="font-size: 1.05rem; color: #444; line-height: 1.5; margin-top: 0; margin-bottom: 1.1rem;">
+I train models to read the changing atmosphere, and they train me to see how humanity adapt.
+</p>
 
----
+<hr style="margin-top: 0; margin-bottom: 1.25rem;" />
 
 ## About Me
 
