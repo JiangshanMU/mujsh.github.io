@@ -1,12 +1,11 @@
-{% assign current_path = page.url | replace: 'index.html', '' %}
 <nav class="navbar navbar-expand-md sticky-top navbar-dark" style="background-color: #0b3d91;">
   <div class="container-fluid position-relative">
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link {% if current_path == '/' %}active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
-        <a class="nav-link {% if current_path contains '/publications' %}active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a>
-        <a class="nav-link {% if current_path contains '/research' %}active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/research">Research</a>
-        <a class="nav-link {% if current_path contains '/photos' %}active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/photos">Photos</a>
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a>
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/research">Research</a>
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/photos">Photos</a>
       </div>
     </div>
     <a class="navbar-brand position-absolute top-50 start-50 translate-middle text-center" href="{{ site.url }}{{ site.baseurl }}/">
