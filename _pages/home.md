@@ -65,7 +65,7 @@ Atmospheric Chemistry · Air Pollution Exposure · Machine Learning · Environme
 
 </div>
 <div class="col-md-3 d-flex ps-md-1">
-<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 390px; margin-left: auto; margin-top: -16px; overflow: hidden;">
+<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 390px; margin-left: auto; margin-top: -50px; overflow: hidden;">
 <div class="well">
 <h4>Latest News</h4>
 <p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
