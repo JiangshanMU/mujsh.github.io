@@ -65,18 +65,17 @@ Atmospheric Chemistry · Air Pollution Exposure · Machine Learning · Environme
 
 </div>
 <div class="col-md-3 d-flex ps-md-1">
-<div id="newsid" class="h-100" style="display:block; padding: 14px; border: 1px solid #e3e7ed; border-radius: 6px; background: #fbfcfe; width: 100%; max-width: 390px; margin-left: auto; margin-top: -50px; overflow: hidden;">
+<div id="newsid" class="border h-100" style="display:block; padding: 14px; border-radius: 6px; background: #fbfcfe; width: 100%; max-width: 390px; margin-left: auto; margin-top: -50px; overflow: hidden;">
 <div class="well">
 <h4 style="margin-bottom: 10px; font-size: 1.25rem;">Latest News</h4>
-<div style="border-top: 1px solid #e6e9ef;">
+<hr style="margin-top: 0; margin-bottom: 8px; border-color: #e6e9ef; opacity: 1;" />
 {% for article in site.data.news limit:3 %}
-<div style="padding: 9px 0; border-bottom: 1px solid #e6e9ef;">
-<div style="font-weight: 500; line-height: 1.25;">{{ article.headline }}</div>
-<div style="margin-top: 3px; color: #6c757d; font-size: 0.85em;">{{ article.date }}</div>
-</div>
+<p style="margin-bottom: 8px;"><span style="font-weight: 500; line-height: 1.25;">{{ article.headline }}</span><br><span style="color: #6c757d; font-size: 0.85em;">{{ article.date }}</span></p>
+{% unless forloop.last %}
+<hr style="margin-top: 6px; margin-bottom: 8px; border-color: #e6e9ef; opacity: 1;" />
+{% endunless %}
 {% endfor %}
-</div>
-<a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="display: inline-block; margin-top: 10px; font-size: 0.88em;">View all news</a>
+<p style="margin-top: 10px; margin-bottom: 0;"><a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="font-size: 0.88em;">View all news</a></p>
 </div>
 </div>
 </div>
