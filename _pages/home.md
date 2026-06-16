@@ -65,17 +65,18 @@ Atmospheric Chemistry · Air Pollution Exposure · Machine Learning · Environme
 
 </div>
 <div class="col-md-3 d-flex ps-md-1">
-<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 390px; margin-left: auto; margin-top: -50px; overflow: hidden;">
+<div id="newsid" class="h-100" style="display:block; padding: 14px; border: 1px solid #e3e7ed; border-radius: 6px; background: #fbfcfe; width: 100%; max-width: 390px; margin-left: auto; margin-top: -50px; overflow: hidden;">
 <div class="well">
-<h4>Latest News</h4>
-<p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
-<hr style="margin-top: 14px; margin-bottom: 8px;" />
+<h4 style="margin-bottom: 10px; font-size: 1.25rem;">Latest News</h4>
+<div style="border-top: 1px solid #e6e9ef;">
 {% for article in site.data.news limit:3 %}
-<p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
-{% unless forloop.last %}
-<hr style="margin-top: 5px; margin-bottom: 8px;" />
-{% endunless %}
+<div style="padding: 9px 0; border-bottom: 1px solid #e6e9ef;">
+<div style="font-weight: 500; line-height: 1.25;">{{ article.headline }}</div>
+<div style="margin-top: 3px; color: #6c757d; font-size: 0.85em;">{{ article.date }}</div>
+</div>
 {% endfor %}
+</div>
+<a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="display: inline-block; margin-top: 10px; font-size: 0.88em;">View all news</a>
 </div>
 </div>
 </div>
