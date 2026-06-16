@@ -8,7 +8,7 @@ permalink: /
 
 # Jiangshan Mu
 
-**Postdoctoral Researcher**  
+**Postdoctoral Fellow**  
 Nicholas School of the Environment, Duke University
 
 I train models to track our changing climate, and they train me to help humanity adapt.
@@ -113,8 +113,6 @@ I welcome discussions and collaborations related to atmospheric chemistry, air p
 <table style="border-collapse: collapse; border: none; margin-top: 8px;">
 <tr style="border: none;">
 <td style="border: none; padding: 0 8px 2px 0; vertical-align: top;"><strong>Email:</strong></td>
-<td style="border: none; padding: 0 0 2px 0; vertical-align: top;"><a href="mailto:mujiangshan0615@gmail.com">mujiangshan0615@gmail.com</a> | <a href="mailto:jiangshan.mu@duke.edu">jiangshan.mu@duke.edu</a></td>
-</tr>
 <tr style="border: none;">
 <td style="border: none; padding: 0 8px 2px 0; vertical-align: top;"><strong>Office:</strong></td>
 <td style="border: none; padding: 0 0 2px 0; vertical-align: top;">Nicholas School of the Environment, Duke University<br>Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708<br>LSRCA152</td>
