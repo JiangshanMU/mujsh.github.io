@@ -17,13 +17,6 @@ I train models to track our changing climate, and they train me to help humanity
 
 ## About Me
 
-<p style="margin-bottom: 12px;">
-  <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 8px; border:1px solid #d9dee6; border-radius:12px; background:#f8f9fb; font-size:0.85em;">Atmospheric Chemistry</span>
-  <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 8px; border:1px solid #d9dee6; border-radius:12px; background:#f8f9fb; font-size:0.85em;">Air Pollution Exposure</span>
-  <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 8px; border:1px solid #d9dee6; border-radius:12px; background:#f8f9fb; font-size:0.85em;">Machine Learning</span>
-  <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 8px; border:1px solid #d9dee6; border-radius:12px; background:#f8f9fb; font-size:0.85em;">Environmental Health</span>
-</p>
-
 <div class="row align-items-stretch">
 <div class="col-md-9">
 
@@ -42,6 +35,9 @@ I train models to track our changing climate, and they train me to help humanity
 {% if member.title %}
 <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
 {% endif %}
+<p class="card-text text-muted" style="font-size: 0.9em; margin-top: -4px; margin-bottom: 8px;">
+Atmospheric Chemistry · Air Pollution Exposure · Machine Learning · Environmental Health
+</p>
 {% if member.experience %}
 <h6 class="mt-2 mb-1 text-uppercase fw-bold" style="font-size: 0.85em; letter-spacing: 0.05em;">Experience</h6>
 <ul class="mb-2" style="padding-left: 1rem; font-size: 0.9em; list-style-type: disc;">
