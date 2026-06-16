@@ -112,11 +112,11 @@ I welcome discussions and collaborations related to atmospheric chemistry, air p
 
 <table style="border-collapse: collapse; border: none; margin-top: 8px;">
 <tr style="border: none;">
-<td style="border: none; padding: 0 8px 2px 0; vertical-align: top;"><strong>Email:</strong></td>
+
 <tr style="border: none;">
 <td style="border: none; padding: 0 8px 2px 0; vertical-align: top;"><strong>Office:</strong></td>
 <td style="border: none; padding: 0 0 2px 0; vertical-align: top;">Nicholas School of the Environment, Duke University<br>Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708<br>LSRCA152</td>
 </tr>
-</table>
+
 
 <!-- Original homepage backup: _backup/home_2026-05-28_before-homepage-beautification.md -->
