@@ -89,24 +89,7 @@ My research focuses on the processes, patterns, and consequences of atmospheric 
 
 ## Research Interests
 
-<div style="margin-top: 10px; margin-bottom: 18px;">
-  <div style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;">
-    <strong>Atmospheric composition and air pollution</strong><br>
-    <span>Quantifying variability in nitrogen oxides, ozone, particulate matter, and related chemical processes.</span>
-  </div>
-  <div style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;">
-    <strong>Data-driven pollutant reconstruction</strong><br>
-    <span>Combining satellite observations, surface measurements, meteorology, emissions, and model outputs to reconstruct high-resolution pollutant fields.</span>
-  </div>
-  <div style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;">
-    <strong>Exposure, inequality, and health</strong><br>
-    <span>Assessing long-term exposure and disparities across regions, countries, and population groups.</span>
-  </div>
-  <div style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 0;">
-    <strong>Air quality–climate interactions</strong><br>
-    <span>Examining how emission changes affect atmospheric composition, radiative forcing, and coupled air-quality–climate outcomes.</span>
-  </div>
-</div>
+<div style="margin-top: 10px; margin-bottom: 18px;"><p style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;"><strong>Atmospheric composition and air pollution</strong><br>Quantifying variability in nitrogen oxides, ozone, particulate matter, and related chemical processes.</p><p style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;"><strong>Data-driven pollutant reconstruction</strong><br>Combining satellite observations, surface measurements, meteorology, emissions, and model outputs to reconstruct high-resolution pollutant fields.</p><p style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;"><strong>Exposure, inequality, and health</strong><br>Assessing long-term exposure and disparities across regions, countries, and population groups.</p><p style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 0;"><strong>Air quality–climate interactions</strong><br>Examining how emission changes affect atmospheric composition, radiative forcing, and coupled air-quality–climate outcomes.</p></div>
 
 ## Contact
 
