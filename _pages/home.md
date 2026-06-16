@@ -6,134 +6,122 @@ sitemap: false
 permalink: /
 ---
 
-<h1>Jiangshan Mu</h1>
+# Jiangshan Mu
 
-<p><strong>Postdoctoral Fellow</strong><br>
-Nicholas School of the Environment, Duke University</p>
+**Postdoctoral Fellow**  
+Nicholas School of the Environment, Duke University
 
-<p>I train models to track our changing climate, and they train me to help humanity adapt.</p>
+I train models to track our changing climate, and they train me to help humanity adapt.
 
-<div class="homepage-tags">
-  <span>Atmospheric Chemistry</span>
-  <span>Air Pollution Exposure</span>
-  <span>Machine Learning</span>
-  <span>Environmental Health</span>
+---
+
+## About Me
+
+<p style="margin-bottom: 12px;">
+  <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 8px; border:1px solid #d9dee6; border-radius:12px; background:#f8f9fb; font-size:0.85em;">Atmospheric Chemistry</span>
+  <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 8px; border:1px solid #d9dee6; border-radius:12px; background:#f8f9fb; font-size:0.85em;">Air Pollution Exposure</span>
+  <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 8px; border:1px solid #d9dee6; border-radius:12px; background:#f8f9fb; font-size:0.85em;">Machine Learning</span>
+  <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 8px; border:1px solid #d9dee6; border-radius:12px; background:#f8f9fb; font-size:0.85em;">Environmental Health</span>
+</p>
+
+<div class="row align-items-stretch">
+<div class="col-md-9">
+
+{% for member in site.data.team_members limit:1 %}
+<div class="card mb-3 border-0 h-100" style="width: 100%; margin-bottom: 24px;">
+<div class="row g-0 align-items-start">
+<div class="col-md-3">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid rounded-start" alt="{{ member.name }}">
+</div>
+<div class="col-md-9">
+<div class="card-body pt-0">
+<h5 class="card-title">
+  {{ member.name }}
+  <a href="{{ '/downloads/CV_Jm.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.8em; margin-left: 0.5rem;">Download CV</a>
+</h5>
+{% if member.title %}
+<h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
+{% endif %}
+{% if member.experience %}
+<h6 class="mt-2 mb-1 text-uppercase fw-bold" style="font-size: 0.85em; letter-spacing: 0.05em;">Experience</h6>
+<ul class="mb-2" style="padding-left: 1rem; font-size: 0.9em; list-style-type: disc;">
+{% for exp_item in member.experience %}
+<li>{{ exp_item }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if member.education %}
+<h6 class="mt-2 mb-1 text-uppercase fw-bold" style="font-size: 0.85em; letter-spacing: 0.05em;">Education</h6>
+<ul class="mb-2" style="padding-left: 1rem; font-size: 0.9em;">
+{% for edu_item in member.education %}
+<li>{{ edu_item }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if member.links %}
+<p class="card-text" style="width: 100%;"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
+{% endif %}
+</div>
+</div>
+</div>
+</div>
+{% endfor %}
+
+</div>
+<div class="col-md-3 d-flex ps-md-1">
+<div id="newsid" class="bg-light border h-100" style="display:block; padding: 14px; border-radius: 6px; width: 100%; max-width: 390px; margin-left: auto; margin-top: -16px; overflow: hidden;">
+<div class="well">
+<h4>Latest News</h4>
+<p>More updates are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
+<hr style="margin-top: 14px; margin-bottom: 8px;" />
+{% for article in site.data.news limit:3 %}
+<p><em>{{ article.headline }}</em><br><span>{{ article.date }}</span></p>
+{% unless forloop.last %}
+<hr style="margin-top: 5px; margin-bottom: 8px;" />
+{% endunless %}
+{% endfor %}
+</div>
+</div>
+</div>
 </div>
 
-<div class="currently-box">
-  <strong>Currently:</strong> developing high-resolution atmospheric datasets and data-driven methods for air pollution exposure and climate-relevant atmospheric composition.
-</div>
+## Research Profile
 
-<hr>
+I am currently a postdoctoral researcher in [Prof. Drew Shindell](https://nicholas.duke.edu/people/faculty/shindell)'s group at the [Nicholas School of the Environment](https://nicholas.duke.edu), **Duke University**. I received my Ph.D. in Environmental Science from the [Environment Research Institute](https://www.hj.sdu.edu.cn/), **Shandong University**, in **June 2025**, where I was co-advised by [Prof. Likun Xue](https://faculty.sdu.edu.cn/xuelikun/zh_CN/index.htm) and [Prof. Yuqiang Zhang](https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm). From January to May 2024, I conducted collaborative research as a visiting scholar at the **Universidad Politecnica de Madrid**.
 
-<h2>About Me</h2>
+My research focuses on the processes, patterns, and consequences of atmospheric pollution. A central theme of my work is to develop and apply high-resolution atmospheric datasets to examine how air pollution evolves over time, how exposure varies among populations, and how emission changes affect air quality and climate-relevant atmospheric composition.
 
-<div class="row align-items-stretch homepage-top-row">
-  <div class="col-md-9">
-    {% for member in site.data.team_members limit:1 %}
-    <div class="card mb-3 border-0 h-100 profile-card">
-      <div class="row g-0 align-items-start">
-        <div class="col-md-3">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-fluid profile-photo" alt="{{ member.name }}">
-        </div>
-        <div class="col-md-9">
-          <div class="card-body pt-0 profile-card-body">
-            <h5 class="card-title profile-name">
-              {{ member.name }}
-              <a class="btn-cv" href="{{ '/downloads/CV_Jm.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download CV</a>
-            </h5>
-            {% if member.title %}
-            <h6 class="card-subtitle mb-2 text-muted">{{ member.title }}</h6>
-            {% endif %}
-            {% if member.experience %}
-            <h6 class="profile-section-title">Experience</h6>
-            <ul class="profile-list">
-              {% for exp_item in member.experience %}
-              <li>{{ exp_item }}</li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-            {% if member.education %}
-            <h6 class="profile-section-title">Education</h6>
-            <ul class="profile-list">
-              {% for edu_item in member.education %}
-              <li>{{ edu_item }}</li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-            {% if member.links %}
-            <p class="card-text profile-links"><small>{% for link in member.links %}{{ link }}{% unless forloop.last %} | {% endunless %}{% endfor %}</small></p>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
+## Research Interests
 
-  <div class="col-md-3 d-flex ps-md-1">
-    <div id="newsid" class="news-card">
-      <div class="well">
-        <h4>Latest News</h4>
-        <p class="news-note">Selected recent updates. More items are available on the <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">news page</a>.</p>
-        <div class="news-list">
-          {% for article in site.data.news limit:3 %}
-          <div class="news-item">
-            <p class="news-headline">{{ article.headline }}</p>
-            <p class="news-date">{{ article.date }}</p>
-          </div>
-          {% endfor %}
-        </div>
-        <a class="news-more" href="{{ site.url }}{{ site.baseurl }}/allnews.html">View all news</a>
-      </div>
-    </div>
-  </div>
-</div>
+**Atmospheric composition and air pollution**  
+Quantifying the spatial and temporal variability of atmospheric pollutants, with emphasis on nitrogen oxides, ozone, particulate matter, and related chemical processes.
 
-<h2>Research Profile</h2>
+**Data-driven atmospheric reconstruction**  
+Developing machine-learning approaches that combine satellite observations, ground measurements, meteorology, emissions, and chemical transport model outputs to reconstruct high-resolution pollutant fields.
 
-<p>I am currently a postdoctoral researcher in <a href="https://nicholas.duke.edu/people/faculty/shindell">Prof. Drew Shindell</a>'s group at the <a href="https://nicholas.duke.edu">Nicholas School of the Environment</a>, <strong>Duke University</strong>. I received my Ph.D. in Environmental Science from the <a href="https://www.hj.sdu.edu.cn/">Environment Research Institute</a>, <strong>Shandong University</strong>, in <strong>June 2025</strong>, where I was co-advised by <a href="https://faculty.sdu.edu.cn/xuelikun/zh_CN/index.htm">Prof. Likun Xue</a> and <a href="https://faculty.sdu.edu.cn/~f2eaAz/zh_CN/index.htm">Prof. Yuqiang Zhang</a>. From January to May 2024, I conducted collaborative research as a visiting scholar at the <strong>Universidad Politecnica de Madrid</strong>.</p>
+**Exposure, inequality, and environmental health**  
+Assessing long-term population exposure to air pollution and identifying disparities across regions, countries, and demographic groups.
 
-<p>My work develops high-resolution atmospheric datasets and data-driven methods to examine how air pollution evolves over time, how exposure varies across populations, and how emission changes affect air quality and climate-relevant atmospheric composition.</p>
+**Air quality and climate interactions**  
+Investigating how emission changes influence atmospheric composition, radiative forcing, and the coupled air-quality and climate consequences of human activities.
 
-<h2>Research Interests</h2>
+## Contact
 
-<div class="interest-grid">
-  <div class="interest-card">
-    <h5>Atmospheric composition and air pollution</h5>
-    <p>Quantifying the spatial and temporal variability of atmospheric pollutants, with emphasis on nitrogen oxides, ozone, particulate matter, and related chemical processes.</p>
-  </div>
-  <div class="interest-card">
-    <h5>Data-driven atmospheric reconstruction</h5>
-    <p>Developing machine-learning approaches that combine satellite observations, ground measurements, meteorology, emissions, and chemical transport model outputs to reconstruct high-resolution pollutant fields.</p>
-  </div>
-  <div class="interest-card">
-    <h5>Exposure, inequality, and environmental health</h5>
-    <p>Assessing long-term population exposure to air pollution and identifying disparities across regions, countries, and demographic groups.</p>
-  </div>
-  <div class="interest-card">
-    <h5>Air quality and climate interactions</h5>
-    <p>Investigating how emission changes influence atmospheric composition, radiative forcing, and the coupled air-quality and climate consequences of human activities.</p>
-  </div>
-</div>
+I welcome discussions and collaborations related to atmospheric chemistry, air pollution exposure, environmental health, and data-driven atmospheric science.
 
-<h2>Contact</h2>
-
-<p>I welcome discussions and collaborations related to atmospheric chemistry, air pollution exposure, environmental health, and data-driven atmospheric science.</p>
-
-<table class="contact-table">
-  {% for member in site.data.team_members limit:1 %}
-  {% if member.email %}
-  <tr>
-    <td><strong>Email:</strong></td>
-    <td>{% for mail in member.email %}<a href="mailto:{{ mail }}">{{ mail }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}</td>
-  </tr>
-  {% endif %}
-  {% endfor %}
-  <tr>
-    <td><strong>Office:</strong></td>
-    <td>Nicholas School of the Environment, Duke University<br>Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708<br>LSRCA152</td>
-  </tr>
+<table style="border-collapse: collapse; border: none; margin-top: 8px;">
+{% for member in site.data.team_members limit:1 %}
+{% if member.email %}
+<tr style="border: none;">
+<td style="border: none; padding: 0 8px 2px 0; vertical-align: top;"><strong>Email:</strong></td>
+<td style="border: none; padding: 0 0 2px 0; vertical-align: top;">{% for mail in member.email %}<a href="mailto:{{ mail }}">{{ mail }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}</td>
+</tr>
+{% endif %}
+{% endfor %}
+<tr style="border: none;">
+<td style="border: none; padding: 0 8px 2px 0; vertical-align: top;"><strong>Office:</strong></td>
+<td style="border: none; padding: 0 0 2px 0; vertical-align: top;">Nicholas School of the Environment, Duke University<br>Grainger Hall, 9 Circuit Drive, Box 90328, Durham, NC 27708<br>LSRCA152</td>
+</tr>
 </table>
 
 <!-- Original homepage backup: _backup/home_2026-05-28_before-homepage-beautification.md -->
