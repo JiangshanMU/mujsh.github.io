@@ -11,7 +11,7 @@ permalink: /
 **Postdoctoral Researcher**  
 Nicholas School of the Environment, Duke University
 
-I study atmospheric composition and its implications for air quality, environmental health, and population exposure. My work integrates ground-based observations, satellite-derived products, atmospheric models, and machine learning to quantify long-term changes in air pollution and their unequal impacts across regions and populations.
+I train models to track our changing climate, and they train me to help humanity adapt.
 
 ---
 
