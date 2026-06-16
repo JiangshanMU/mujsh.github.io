@@ -89,17 +89,24 @@ My research focuses on the processes, patterns, and consequences of atmospheric 
 
 ## Research Interests
 
-**Atmospheric composition and air pollution**  
-Quantifying the spatial and temporal variability of atmospheric pollutants, with emphasis on nitrogen oxides, ozone, particulate matter, and related chemical processes.
-
-**Data-driven atmospheric reconstruction**  
-Developing machine-learning approaches that combine satellite observations, ground measurements, meteorology, emissions, and chemical transport model outputs to reconstruct high-resolution pollutant fields.
-
-**Exposure, inequality, and environmental health**  
-Assessing long-term population exposure to air pollution and identifying disparities across regions, countries, and demographic groups.
-
-**Air quality and climate interactions**  
-Investigating how emission changes influence atmospheric composition, radiative forcing, and the coupled air-quality and climate consequences of human activities.
+<div style="margin-top: 10px; margin-bottom: 18px;">
+  <div style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;">
+    <strong>Atmospheric composition and air pollution</strong><br>
+    <span>Quantifying variability in nitrogen oxides, ozone, particulate matter, and related chemical processes.</span>
+  </div>
+  <div style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;">
+    <strong>Data-driven pollutant reconstruction</strong><br>
+    <span>Combining satellite observations, surface measurements, meteorology, emissions, and model outputs to reconstruct high-resolution pollutant fields.</span>
+  </div>
+  <div style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 14px;">
+    <strong>Exposure, inequality, and health</strong><br>
+    <span>Assessing long-term exposure and disparities across regions, countries, and population groups.</span>
+  </div>
+  <div style="border-left: 3px solid #d9dee6; padding-left: 12px; margin-bottom: 0;">
+    <strong>Air quality–climate interactions</strong><br>
+    <span>Examining how emission changes affect atmospheric composition, radiative forcing, and coupled air-quality–climate outcomes.</span>
+  </div>
+</div>
 
 ## Contact
 
