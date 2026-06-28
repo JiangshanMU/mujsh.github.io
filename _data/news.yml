@@ -83,18 +83,6 @@
     Congratulations to Can Cui, Jisheng Zhang, and Zhaoqi Gao for successfully defending their master's theses.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/masters_defense.jpg"
 
-- date: May 17, 2025
-  headline: "Attended Hongyong Li's Wedding in Jinan"
-  body: |
-    Members of the TRACE group traveled to Jinan to celebrate Hongyong Li's wedding.
-  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/wedding_jinan.jpg"
-
-- date: May 1, 2025
-  headline: "Zhuyi Wang Began a One-Year Visit at Duke University"
-  body: |
-    Zhuyi Wang began her one-year visiting scholar appointment at Duke University.
-  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/wang_duke.jpg"
-
 - date: April 24, 2025
   headline: "CHANGE Group Spring Hike at Laoshan"
   body: |
@@ -106,12 +94,6 @@
   body: |
     I attended the First Artificial Intelligence Conference in Shanghai with Zhou Liu and Chengwen Niu.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/ai_conference_shanghai_20250312.jpg"
-
-- date: January 20, 2025
-  headline: "CHANGE Group Dinner Before Winter Break"
-  body: |
-    The CHANGE group gathered for a dinner before the winter break.
-  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/dinner_changer_20250120.jpg"
 
 - date: January 1, 2025
   headline: "Happy New Year"
@@ -154,35 +136,17 @@
     I attended the ABaCAS conference in Shanghai with Prof. Yuqiang Zhang, Zhou Liu, and Zhaoqi Gao.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/abacas2024.jpg"
 
-- date: August 10, 2024
-  headline: "Reunion with Friends in Jinan"
-  body: |
-    I reunited with Tao Sun, Lei Li, and Hongliang Gao in Jinan.
-  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/jinan_reunion_2024.jpg"
-
 - date: August 2, 2024
   headline: "CHANGE Group Retreat in Huangdao"
   body: |
     The CHANGE research group held a summer retreat in Huangdao, Qingdao, from August 1 to 2.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/huangdao_retreat_2024.jpg"
 
-- date: July 27, 2024
-  headline: "Attended Minglei Li's Wedding in Qingzhou"
-  body: |
-    I attended the wedding ceremony of Minglei Li in Qingzhou.
-  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/wedding_liminglei_2024.jpg"
-
 - date: June 21, 2024
   headline: "Jinghao Tang and Yanqiu Nie Graduated with Master's Degrees"
   body: |
     Jinghao Tang and Yanqiu Nie from the TRACE research group completed their master's studies and graduated.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/trace_graduation_2024.jpg"
-
-- date: June 15, 2024
-  headline: "Celebrated My 27th Birthday with a G.E.M. Concert"
-  body: |
-    I celebrated my 27th birthday with friends by attending a G.E.M. concert.
-  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/GEM_Concert_2024.jpg"
 
 - date: May 27, 2024
   headline: "Gave an Oral Presentation at a Ph.D. Forum in Nanjing"
@@ -226,16 +190,10 @@
     The TRACE group held its 2023 summary meeting and year-end dinner.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/trace2023.jpg"
 
-- date: January 16, 2024
-  headline: "Attended Shan Ye and Yuanyuan's Wedding"
-  body: |
-    Members of the TRACE group attended the wedding of Shan Ye and Yuanyuan.
-  image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/wedding.jpg"
-
 - date: January 1, 2024
   headline: "Happy New Year"
   body: |
-    The TRACE group spent New Year's Eve together at Yuhong Liu's home.
+    The TRACE group spent New Year's Eve together.
   image: "https://raw.githubusercontent.com/JiangshanMU/mujsh.github.io/master/images/year.jpg"
 
 - date: November 7, 2023
@@ -313,12 +271,6 @@
   body: |
     This personal academic website was launched using code adapted from the Allan Lab website.
   link: "http://www.allanlab.org/aboutwebsite.html"
-
-- date: March 1, 2023
-  headline: "Paper on PM2.5 and Machine Learning Published"
-  body: |
-    Our paper on interpretability analysis of air pollution events from a machine-learning perspective was published.
-  link: "https://www.sciencedirect.com/science/article/pii/S0160412023001344"
 
 - date: February 1, 2023
   headline: "Joined the XYZ-CHANGE Group"
