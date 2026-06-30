@@ -1,0 +1,30 @@
+# Research group member data
+# Edit this file to update the people shown on the Group page.
+
+pi:
+  name: "Jiangshan Mu"
+  role: "Principal Investigator / Research Lead"
+  email: "mujiangshan0615@gmail.com"
+  photo: ""
+  interests:
+    - "Atmospheric chemistry"
+    - "Air pollution exposure and inequality"
+    - "Satellite remote sensing and chemical transport modeling"
+    - "Explainable machine learning for environmental analysis"
+  bio: "Research on atmospheric chemistry, air pollution, climate interactions, and data-driven environmental analysis."
+
+current:
+  - name: "Member Name"
+    role: "Ph.D. Student / M.S. Student / Research Assistant"
+    email: ""
+    photo: ""
+    interests:
+      - "Research interest 1"
+      - "Research interest 2"
+    bio: "Short biography or research description."
+
+alumni:
+  - name: "Alumni Name"
+    role: "Former Group Member"
+    current: "Current position or affiliation"
+    photo: ""
