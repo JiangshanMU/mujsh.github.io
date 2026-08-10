@@ -9,7 +9,7 @@ permalink: /
 <h1 style="font-size: 2.7rem; font-weight: 400; margin-bottom: 0.4rem;">Jiangshan Mu</h1>
 
 <p style="margin-bottom: 1rem; line-height: 1.35;">
-<strong>Postdoctoral Fellow</strong><br>
+<strong>Postdoctoral Associate</strong><br>
 Nicholas School of the Environment, Duke University
 </p>
 
