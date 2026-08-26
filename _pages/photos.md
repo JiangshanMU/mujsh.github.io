@@ -23,6 +23,11 @@ The gallery is arranged chronologically from bottom to top, with earlier photos 
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/agu20251217.jpg" alt="agu20251217" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in New Orleans, USA, December 17, 2025.<br>From front to back: Zhuyi Wang, Min Zhao, Na Zhao, Yuqiang Zhang, Jiangshan Mu, and Yingnan Zhang.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_21.jpg" alt="Photo 21" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Shindell's Group in Durham, December 7, 2025.<br>Left side, from front to back: Qianru Zhang, Drew Shindell, and Drew Pendergrass.<br>Right side, from front to back: Wenyu Liu, Chi Zhang, Zhuyi Wang, and Jiangshan Mu.</p>
 </div>
@@ -43,6 +48,11 @@ The gallery is arranged chronologically from bottom to top, with earlier photos 
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/agu20241212.jpg" alt="agu20241212" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Washington D.C, USA, December 12, 2024.<br>From left to right: Yu Yang, Bin Luo, Yingnan Zhang, and Jiangshan Mu.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_17.jpg" alt="Photo 17" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Laoshan, Qingdao, October 7, 2024.<br>First row, from left to right: Ping Liu, Xuanying Ji, Can Cui, Qingqing Liu, Zhuyi Wang, Qionghui Zhou, Ruyu Yuan, Chunyue Miao, and Bin Luo.<br>Second row, from left to right: Jintian Xue, Likun Xue, Pengwen Fu, Yuqiang Zhang, Yuhong Liu, Haoxin Sui, Jiangshan Mu, Hanyuan Zhang, and Xuelian Zhong.</p>
 </div>
@@ -60,6 +70,11 @@ The gallery is arranged chronologically from bottom to top, with earlier photos 
 <div class="photo-entry" style="margin-bottom: 36px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/photos/photo_14.jpg" alt="Photo 14" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
   <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Zhang's Group in Beijing, May 23, 2024.<br>From left to right: Zhou Liu, Jiangshan Mu, Drew Shindell, Yuqiang Zhang, Bin Luo, and Zhuyi Wang.</p>
+</div>
+
+<div class="photo-entry" style="margin-bottom: 36px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/photos/EGU20240417.jpg" alt="EGU20240417" style="width:100%; max-width:900px; display:block; margin:0 auto; border-radius:6px; border:1px solid #ddd;">
+  <p style="max-width:900px; margin:10px auto 0 auto; text-align:center; color:#555;">Xue's Group in Vienna, Austria, April 17, 2024.<br>From left to right: Jiangshan Mu, Likun Xue, and Yuqiang Zhang.</p>
 </div>
 
 <div class="photo-entry" style="margin-bottom: 36px;">
